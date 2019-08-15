@@ -103,7 +103,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5D53667D)
-    (at 199.2 111.625 180)
+    (at 199.575 111.625 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (fp_text reference REF** (at 1.25 -2.05) (layer F.SilkS)
@@ -135,7 +135,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5D53665D)
-    (at 199.25 108.55 180)
+    (at 199.575 108.55 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (fp_text reference REF** (at 1.25 -2.05) (layer F.SilkS)
@@ -167,7 +167,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5D53663D)
-    (at 199.15 105.9 180)
+    (at 199.575 105.9 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (fp_text reference REF** (at 1.25 -2.05) (layer F.SilkS)
@@ -199,7 +199,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5D53661D)
-    (at 199.2 103.55 180)
+    (at 199.575 103.55 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (fp_text reference REF** (at 1.25 -2.05) (layer F.SilkS)
@@ -231,7 +231,7 @@
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5D5365FD)
-    (at 198.975 100.975 180)
+    (at 199.575 100.975 180)
     (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
     (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
     (fp_text reference REF** (at 1.25 -2.05) (layer F.SilkS)
