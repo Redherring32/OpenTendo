@@ -35,5 +35,5 @@ Not all of these are guaranteed to be done, however I will work on any I can obt
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
 
-*There is a PPU that can be used the part number is UA6528/UA6528P, it is available on Aliexpress.
+*There is a PPU that can be used; the part number is UA6528 or UA6528P, and it is available on Aliexpress.
 While it works as a direct replacement, it isn't known whether it is compatible with all NES games.
