@@ -9,19 +9,19 @@ Since this project is open-source you may do as you like with it, whether that i
 
 The following peripherals/parts are also planned to be Reverse-Engineered:
 
-Power/Reset board
+*Power/Reset board
 
-RF Modulator board
+*RF Modulator board
 
-Famicom cartridge-NES adapter (With expansion audio fix)
+*Famicom cartridge-NES adapter (With expansion audio fix)
 
-NES Controller
+*NES Controller
 
-NES Advantage
+*NES Advantage
 
-NES Fourscore
+*NES Fourscore
 
-NES Satellite
+*NES Satellite
 
 Not all of these are guaranteed to be done, however I will work on any I can obtain.
 
