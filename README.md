@@ -1,5 +1,5 @@
 # NES-RE
-A project to Reverse-Engineer the original NES motherboard for documentation purposes.
+A project to Reverse-Engineer the original NES motherboard
 
 The end goal is to document the board layout, then to produce board files, schematics, and a bill of materials.
 The design will be as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
