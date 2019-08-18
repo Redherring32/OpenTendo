@@ -8,7 +8,7 @@ as well as some improvements. (Expansion audio enabled, CIC clone that only hand
 Since this project is open-source you may do as you like with it, whether that is to make boards for personal use, sell replacement NES boards, or to use the provided info for further custom PCB work/designs.
 
 Note: At this point in time, any and all motherboards will require the use of an original CPU, PPU*, and CIC Lockout chip to function.
-These are the only three parts that are custom and have no available replacement, the rest can be replaced with modern easily available parts.
+These are the only three parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
 The following peripherals/parts are also planned to be Reverse-Engineered:
 
@@ -35,5 +35,5 @@ Not all of these are guaranteed to be done, however I will work on any I can obt
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
 
-*There is a PPU that can be used; the part number is UA6528 or UA6528P, and it is available on Aliexpress.
-While it works as a direct replacement, it isn't known whether it is compatible with all NES games.
+*There is a PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
+While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
