@@ -1,4 +1,4 @@
-# NES-RE
+# OpenNES
 A project to Reverse-Engineer the original NES motherboard
 
 The end goal is to document the board layout, then to produce board files, schematics, and a bill of materials.
