@@ -1,7 +1,7 @@
 # OpenNES
 An Open-Source HardWare (OSHW) recreation of the original 1985 NES motherboard.
 
-![Board Front Render](https://github.com/Redherring32/OpenNES/kicad_OxKiosco9g.png?raw=true)
+![Board Front Render](https://i.imgur.com/BD9VPXo.png)
 
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
 as well as some improvements. (Expansion audio enabled, and other minor changes)
