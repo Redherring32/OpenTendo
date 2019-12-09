@@ -1,5 +1,5 @@
 # OpenNES
-An Open-Source HardWare recreation of the original 1985 NES motherboard.
+An Open-Source HardWare (OSHW) recreation of the original 1985 NES motherboard.
 
 The end goal is to document the board layout, then to produce board files, schematics, and a bill of materials.
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
