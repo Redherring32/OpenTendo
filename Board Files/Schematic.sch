@@ -674,9 +674,9 @@ Wire Wire Line
 	12550 2150 12150 2150
 Text Label 10750 2150 0    50   ~ 0
 GND
-Text Label 10750 1950 0    50   ~ 0
-CPU-A15
 Text Label 10750 1850 0    50   ~ 0
+CPU-A15
+Text Label 10750 1950 0    50   ~ 0
 M2
 Wire Wire Line
 	10750 1850 11150 1850
@@ -1508,7 +1508,7 @@ U 1 1 5E79F540
 P 3450 1450
 F 0 "P4" H 3350 1000 50  0000 C CNN
 F 1 "Controller Input" V 3550 1450 50  0000 C CNN
-F 2 "" H 3450 1450 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal" H 3450 1450 50  0001 C CNN
 F 3 "~" H 3450 1450 50  0001 C CNN
 	1    3450 1450
 	-1   0    0    1   
@@ -1544,8 +1544,6 @@ GND
 Wire Wire Line
 	4250 2300 4250 2000
 Wire Wire Line
-	3650 1150 4550 1150
-Wire Wire Line
 	3650 1350 4600 1350
 Wire Wire Line
 	3650 1450 4100 1450
@@ -1559,8 +1557,6 @@ Wire Wire Line
 	3950 1950 3950 1550
 Wire Wire Line
 	4100 1950 4100 1450
-Wire Wire Line
-	4400 950  4400 1950
 Wire Wire Line
 	4550 1150 4550 1950
 Wire Wire Line
@@ -1588,7 +1584,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1150 5700 1150
 Wire Wire Line
-	3650 1250 5500 1250
+	3650 1250 4400 1250
 Wire Wire Line
 	3950 1550 5100 1550
 Wire Wire Line
@@ -1884,7 +1880,7 @@ U 1 1 5F41BBDE
 P 3450 3150
 F 0 "P5" H 3350 2700 50  0000 C CNN
 F 1 "Controller Input" V 3550 3150 50  0000 C CNN
-F 2 "" H 3450 3150 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S7B-PH-K_1x07_P2.00mm_Horizontal" H 3450 3150 50  0001 C CNN
 F 3 "~" H 3450 3150 50  0001 C CNN
 	1    3450 3150
 	-1   0    0    1   
@@ -1919,14 +1915,6 @@ Text Label 4250 4000 1    50   ~ 0
 GND
 Wire Wire Line
 	4250 4000 4250 3700
-Wire Wire Line
-	3950 3650 3950 3350
-Wire Wire Line
-	4100 3650 4100 3250
-Wire Wire Line
-	4400 2650 4400 3150
-Wire Wire Line
-	3650 2950 4550 2950
 $Comp
 L Device:C_Small C31
 U 1 1 5F41BC10
@@ -2006,23 +1994,10 @@ Wire Wire Line
 	4900 3500 4900 3350
 Connection ~ 4900 3350
 Wire Wire Line
-	5100 3500 5100 3250
-Connection ~ 5100 3250
-Wire Wire Line
-	5300 3500 5300 3150
-Connection ~ 5300 3150
-Wire Wire Line
-	5500 3500 5500 2950
-Connection ~ 5500 2950
-Wire Wire Line
 	5700 3500 5700 2850
 Connection ~ 5700 2850
 Wire Wire Line
 	5700 2850 6300 2850
-Wire Wire Line
-	5500 2950 6300 2950
-Wire Wire Line
-	5300 3150 6300 3150
 Wire Wire Line
 	5100 3250 6300 3250
 Wire Wire Line
@@ -2052,53 +2027,6 @@ F 3 "~" H 2550 3250 50  0001 C CNN
 	1    2550 3250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3650 2850 4700 2850
-Wire Wire Line
-	3650 3050 3900 3050
-Wire Wire Line
-	3650 3450 3800 3450
-Wire Wire Line
-	3650 3350 3950 3350
-Wire Wire Line
-	3800 2650 3800 3450
-Connection ~ 3800 3450
-Wire Wire Line
-	3800 3450 6300 3450
-Wire Wire Line
-	3900 3050 3900 3500
-Wire Wire Line
-	3900 3500 3800 3500
-Wire Wire Line
-	3800 3500 3800 3650
-Connection ~ 3900 3050
-Wire Wire Line
-	3900 3050 6300 3050
-Wire Wire Line
-	4550 3650 4550 2950
-Wire Wire Line
-	4700 2650 4700 2850
-Connection ~ 3950 3350
-Wire Wire Line
-	3950 3350 4900 3350
-Connection ~ 4100 3250
-Wire Wire Line
-	4100 3250 5100 3250
-Connection ~ 4400 3150
-Wire Wire Line
-	4400 3150 4400 3650
-Wire Wire Line
-	4400 3150 5300 3150
-Connection ~ 4550 2950
-Wire Wire Line
-	4550 2950 5500 2950
-Wire Wire Line
-	4550 2950 4550 2650
-Connection ~ 4700 2850
-Wire Wire Line
-	4700 2850 5700 2850
-Wire Wire Line
-	4700 2850 4700 3650
 $Comp
 L NES-CPU-11:74HC368 U7
 U 1 1 5FA4F885
@@ -2774,7 +2702,7 @@ F 3 "" H 3950 5100 50  0001 C CNN
 	1    3950 5100
 	1    0    0    -1  
 $EndComp
-Text Label 4450 5300 2    50   ~ 0
+Text Label 4200 5300 2    50   ~ 0
 AUDIO
 Text Label 4450 4750 2    50   ~ 0
 EXP-AUDIO-OUT
@@ -2784,25 +2712,18 @@ Connection ~ 3500 5300
 $Comp
 L Device:C_Small C4
 U 1 1 5DD404CF
-P 3950 5750
-F 0 "C4" H 4150 5700 50  0000 C CNN
-F 1 "220pF" H 4150 5800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3950 5750 50  0001 C CNN
-F 3 "~" H 3950 5750 50  0001 C CNN
-	1    3950 5750
+P 3900 5400
+F 0 "C4" H 4100 5350 50  0000 C CNN
+F 1 "220pF" H 4100 5450 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3900 5400 50  0001 C CNN
+F 3 "~" H 3900 5400 50  0001 C CNN
+	1    3900 5400
 	-1   0    0    1   
 $EndComp
-Text Label 3950 6200 1    50   ~ 0
+Text Label 3900 5850 1    50   ~ 0
 GND
 Wire Wire Line
-	3950 5850 3950 6200
-Wire Wire Line
-	3950 5300 3950 5650
-Wire Wire Line
-	3900 5300 3950 5300
-Connection ~ 3950 5300
-Wire Wire Line
-	3950 5300 4450 5300
+	3900 5500 3900 5850
 Wire Wire Line
 	3500 4750 4450 4750
 Connection ~ 3500 4750
@@ -3118,14 +3039,14 @@ Wire Wire Line
 Wire Wire Line
 	8000 7700 7550 7700
 $Comp
-L Connector:Conn_01x05_Male P3
+L Connector:Conn_01x09_Male P3
 U 1 1 619A2E89
-P 8200 7000
-F 0 "P3" H 8172 6932 50  0000 R CNN
-F 1 "MOD RF" H 8172 7023 50  0000 R CNN
-F 2 "NESRE:Mod_RF" H 8200 7000 50  0001 C CNN
-F 3 "~" H 8200 7000 50  0001 C CNN
-	1    8200 7000
+P 8200 6800
+F 0 "P3" H 8172 6732 50  0000 R CNN
+F 1 "MOD RF" H 8172 6823 50  0000 R CNN
+F 2 "NESRE:Mod_RF" H 8200 6800 50  0001 C CNN
+F 3 "~" H 8200 6800 50  0001 C CNN
+	1    8200 6800
 	-1   0    0    1   
 $EndComp
 Text Label 7550 7200 0    50   ~ 0
@@ -3626,7 +3547,7 @@ Wire Wire Line
 Text Label 7600 10200 1    50   ~ 0
 GND
 Text Label 7600 9300 3    50   ~ 0
-VCC
++9V
 $Comp
 L Device:C_Small C19
 U 1 1 64DD0059
@@ -3797,25 +3718,25 @@ Wire Wire Line
 Text Label 11200 10200 1    50   ~ 0
 GND
 Text Label 11200 9300 3    50   ~ 0
-VCC
++9V
 $Comp
 L 74xx:74LS04 U9
 U 7 1 659B38AC
-P 7700 6250
-F 0 "U9" V 7333 6250 50  0000 C CNN
-F 1 "74LS04" V 7424 6250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7700 6250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7700 6250 50  0001 C CNN
-	7    7700 6250
+P 7600 6150
+F 0 "U9" V 7233 6150 50  0000 C CNN
+F 1 "74LS04" V 7324 6150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7600 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7600 6150 50  0001 C CNN
+	7    7600 6150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 6250 6900 6250
+	7100 6150 6800 6150
 Wire Wire Line
-	8500 6250 8200 6250
-Text Label 6900 6250 0    50   ~ 0
+	8400 6150 8100 6150
+Text Label 6800 6150 0    50   ~ 0
 GND
-Text Label 8500 6250 2    50   ~ 0
+Text Label 8400 6150 2    50   ~ 0
 VCC
 Wire Wire Line
 	1000 3150 700  3150
@@ -3869,8 +3790,102 @@ Wire Wire Line
 	5000 7000 5000 7150
 Text Label 5000 7150 1    50   ~ 0
 GND
+Connection ~ 3900 5300
 Wire Wire Line
-	4100 3250 3650 3250
+	3900 5300 4200 5300
+Text Label 8000 6400 2    50   ~ 0
+GND
+Text Label 8000 6500 2    50   ~ 0
+GND
+Text Label 8000 6600 2    50   ~ 0
+GND
+Text Label 8000 6700 2    50   ~ 0
+GND
 Wire Wire Line
-	4400 3150 3650 3150
+	5500 2950 6300 2950
+Connection ~ 5500 2950
+Wire Wire Line
+	5500 3500 5500 2950
+Wire Wire Line
+	5300 3150 6300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3500 5300 3150
+Wire Wire Line
+	5100 3500 5100 3250
+Connection ~ 5100 3250
+Wire Wire Line
+	3650 3050 3900 3050
+Wire Wire Line
+	3650 3450 3800 3450
+Wire Wire Line
+	3650 2850 4700 2850
+Wire Wire Line
+	3650 2950 4550 2950
+Wire Wire Line
+	3650 3150 4400 3150
+Wire Wire Line
+	3650 3250 4100 3250
+Wire Wire Line
+	3650 3350 3950 3350
+Wire Wire Line
+	3800 2650 3800 3450
+Connection ~ 3800 3450
+Wire Wire Line
+	3800 3450 6300 3450
+Wire Wire Line
+	3800 3650 3800 3500
+Wire Wire Line
+	3800 3500 3900 3500
+Wire Wire Line
+	3900 3500 3900 3050
+Connection ~ 3900 3050
+Wire Wire Line
+	3900 3050 6300 3050
+Wire Wire Line
+	3950 2650 3950 3350
+Connection ~ 3950 3350
+Wire Wire Line
+	3950 3350 4900 3350
+Wire Wire Line
+	3950 3350 3950 3650
+Wire Wire Line
+	4100 2650 4100 3250
+Connection ~ 4100 3250
+Wire Wire Line
+	4100 3250 5100 3250
+Wire Wire Line
+	4100 3250 4100 3650
+Wire Wire Line
+	4400 2650 4400 3150
+Connection ~ 4400 3150
+Wire Wire Line
+	4400 3150 5300 3150
+Wire Wire Line
+	4400 3150 4400 3650
+Wire Wire Line
+	4550 2650 4550 2950
+Connection ~ 4550 2950
+Wire Wire Line
+	4550 2950 5500 2950
+Wire Wire Line
+	4550 2950 4550 3650
+Wire Wire Line
+	4700 2650 4700 2850
+Connection ~ 4700 2850
+Wire Wire Line
+	4700 2850 5700 2850
+Wire Wire Line
+	4700 2850 4700 3650
+Wire Wire Line
+	4550 1150 4550 950 
+Wire Wire Line
+	3650 1150 4550 1150
+Wire Wire Line
+	4400 950  4400 1250
+Connection ~ 4400 1250
+Wire Wire Line
+	4400 1250 5500 1250
+Wire Wire Line
+	4400 1250 4400 1950
 $EndSCHEMATC
