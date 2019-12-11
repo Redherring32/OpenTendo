@@ -1,5 +1,5 @@
 # OpenNES
-An Open-Source HardWare (OSHW) recreation of the original 1985 NES motherboard.
+An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
 ![Board Front Render](https://i.imgur.com/BD9VPXo.png)
 
@@ -36,7 +36,14 @@ Not all of these are guaranteed to be done, however I will work on any I can obt
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
 
-*There is a PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
+*There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
 While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 
 **The CIC Lockout can be removed, however the reset button will need to be wired differently, and will need to be pressed immediately after turning on the NES in order to initialize the cartridge
+
+
+
+# CREDITS
+=Lockster= -Helping me out along the way, providing useful hardware info, and cleaning up/putting together the final schematic.
+Krzysiobal -Putting together the NES-CPU-11 schematic that my schematic is largely built upon.
+And to all of the awesome people in the NES scene, I 100% wouldn't have done this if you didn't inspire me.
