@@ -1,4 +1,4 @@
-# OpenNES
+# Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
 ![Board Front Render](https://i.imgur.com/BD9VPXo.png)
