@@ -44,10 +44,10 @@ While it works as a direct drop-in replacement, it isn't known whether it is com
 
 
 # CREDITS
-=Lockster= -Helping me out along the way, providing useful hardware info, and cleaning up/putting together the final schematic.
+=Lockster= -Helping me tremendously along the way, keeping me from going insane, and cleaning up/putting together the final schematic.
 
 
 Krzysiobal -Putting together the NES-CPU-11 schematic that my schematic is largely built upon.
 
 
-And to all of the awesome people in the NES scene, I 100% wouldn't have done this if you didn't inspire me.
+And to all of the awesome people in the NES scene, I wouldn't have been able to do this without the awesome work that some very clever people did before I got here. 
