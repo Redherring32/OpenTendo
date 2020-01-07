@@ -1,7 +1,7 @@
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
-![Board Front Render](https://i.imgur.com/BD9VPXo.png)
+![Board Front Render](https://i.imgur.com/lzFjjWv.png )
 
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
 as well as some improvements. (Expansion audio enabled, and other minor changes)
