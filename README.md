@@ -52,6 +52,7 @@ Krzysiobal -Putting together the NES-CPU-11 schematic that my schematic is large
 
 And to all of the awesome people in the NES scene, I wouldn't have been able to do this without the awesome work that some very clever people did before I got here. 
 
-
+Licensed under
+       the TAPR Open Hardware License (www.tapr.org/OHL)
 
 ©Redherring32 2019-2020
