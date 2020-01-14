@@ -10,11 +10,15 @@ Gerbers.zip: Contains all the files necessary to get boards manufactured, upload
 
 # Recommended PCB specs:
 
-2 layers
-119mmx196mm
-1.6mm thickness
-HASL surface finish
-And any color you want!
++2 layers
+
++119mmx196mm
+
++1.6mm thickness
+
++HASL surface finish
+
++And any color you want!
 
 ![Board Front Render](https://i.imgur.com/fP8ixAj.jpg)
 
