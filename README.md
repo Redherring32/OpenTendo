@@ -4,8 +4,11 @@ An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES
 # Repository Structure:
 
 Board Files: Contains all files necessary to open the project in KiCad, as well as the schematic
+
 Component Footprints: Contains a library of all the custom footprints used on the board
+
 Schematic Symbols: Contains all the custom schematic symbols made for this project
+
 Gerbers.zip: Contains all the files necessary to get boards manufactured, upload the complete zip to the board house of your choice
 
 # Recommended PCB specs:
