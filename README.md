@@ -1,6 +1,21 @@
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
+# Repository Structure:
+
+Board Files: Contains all files necessary to open the project in KiCad, as well as the schematic
+Component Footprints: Contains a library of all the custom footprints used on the board
+Schematic Symbols: Contains all the custom schematic symbols made for this project
+Gerbers.zip: Contains all the files necessary to get boards manufactured, upload the complete zip to the board house of your choice
+
+# Recommended PCB specs:
+
+2 layers
+119mmx196mm
+1.6mm thickness
+HASL surface finish
+And any color you want!
+
 ![Board Front Render](https://i.imgur.com/fP8ixAj.jpg)
 
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
