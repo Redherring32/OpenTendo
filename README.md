@@ -30,11 +30,14 @@ as well as some improvements. (Expansion audio enabled, and other minor changes)
 
 Since this project is open-source you may do as you like with it, whether that is to make boards for personal use, sell replacement NES boards, or to use the provided info for further custom PCB work/designs.
 
-*Note:* At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]<sup/>, PPU<sup>[2]<sup/>, and CIC Lockout chip<sup>[3]<sup/> to function.
+I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
+
+*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  PPU[2], and CIC Lockout chip[3] to function.
+  
 These are the only three parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
 
-I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
+
 
 
 *[1]There is an aftermarket CPU, the part number is UA6527 (NTSC) or UA6527P (PAL), however they are known to have different sounding audio due to swapped duty cycles, as such they aren't a 100% identical substitute, they otherwise work though.
