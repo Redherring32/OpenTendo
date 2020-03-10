@@ -32,12 +32,12 @@ Since this project is open-source you may do as you like with it, whether that i
 
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
-*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  PPU[2], and CIC Lockout chip[3] to function.
+*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  and PPU[1] to function.
   
-These are the only three parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
+These are the only two parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
 
-
+The CIC lockout is also technically required, however you can either use an original part, or a [NullCIC replacement board](https://github.com/Redherring32/NullCIC).
 
 
 *[1]There is an aftermarket CPU, the part number is UA6527 (NTSC) or UA6527P (PAL), however they are known to have different sounding audio due to swapped duty cycles, as such they aren't a 100% identical substitute, they otherwise work though.
@@ -45,7 +45,6 @@ These are the only three parts that are custom and have no available replacement
 *[2]There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
 While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 
-*[3]The CIC Lockout can be removed, however the reset button will need to be wired differently, and will need to be pressed immediately after turning on the NES in order to initialize the cartridge
 
 ## License:
 
