@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Motherboard)(type Legacy)(uri ${KIPRJMOD}/Motherboard.lib)(options "")(descr ""))
+)

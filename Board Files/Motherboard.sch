@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Motherboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,7 +14,7 @@ Comment3 "Reverse Engineered by Krzysiobal"
 Comment4 "Nintendo Entertainment System (NES) Motherboard"
 $EndDescr
 $Comp
-L NES-CPU-11:RP2C02_PPU U5
+L Motherboard:RP2C02_PPU U5
 U 1 1 5D7FE1C0
 P 9900 6700
 F 0 "U5" H 9550 7800 50  0000 C CNN
@@ -278,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 7450 11450 7450
 $Comp
-L NES-CPU-11:2KB_SRAM U4
+L Motherboard:2KB_SRAM U4
 U 1 1 5D8358FE
 P 11850 7100
 F 0 "U4" H 11600 7800 50  0000 C CNN
@@ -325,7 +324,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 6850 12700 6850
 $Comp
-L NES-CPU-11:74HC373 U2
+L Motherboard:74HC373 U2
 U 1 1 5D8739AE
 P 11850 5700
 F 0 "U2" H 11600 6300 50  0000 C CNN
@@ -465,7 +464,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 9350 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NES-CPU-11:RP2A03_CPU U6
+L Motherboard:RP2A03_CPU U6
 U 1 1 5D911B13
 P 9550 2050
 F 0 "U6" H 9200 3150 50  0000 C CNN
@@ -723,7 +722,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 2750 12150 2750
 $Comp
-L NES-CPU-11:2KB_SRAM U1
+L Motherboard:2KB_SRAM U1
 U 1 1 5DB49A97
 P 10600 3900
 F 0 "U1" H 10350 4600 50  0000 C CNN
@@ -832,7 +831,7 @@ Wire Wire Line
 Text Notes 9750 800  0    50   ~ 10
 CENTRAL PROCESSING UNIT & WORK RAM
 $Comp
-L NES-CPU-11:Controller_Port Controller_Port_1
+L Motherboard:Controller_Port Controller_Port_1
 U 1 1 5DCEA036
 P 1350 1650
 F 0 "Controller_Port_1" H 1350 2000 50  0000 C CNN
@@ -1008,7 +1007,7 @@ Connection ~ 2800 1950
 Wire Wire Line
 	2800 1950 2800 2200
 $Comp
-L NES-CPU-11:EXP-CON P2
+L Motherboard:EXP-CON P2
 U 1 1 5D833A72
 P 14250 6750
 F 0 "P2" H 14250 8100 59  0000 C CNN
@@ -1019,7 +1018,7 @@ F 3 "" H 14250 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NES-CPU-11:72-Pin_Connector P1
+L Motherboard:72-Pin_Connector P1
 U 1 1 5D838060
 P 14250 2850
 F 0 "P1" H 14250 4915 50  0000 C CNN
@@ -1514,7 +1513,7 @@ F 3 "~" H 3450 1450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Schematic:Diode_Array_7pin_(Cathode-Common) DA1
+L Motherboard:Diode_Array_7pin_(Cathode-Common) DA1
 U 1 1 5E877EA3
 P 4150 750
 F 0 "DA1" H 3950 750 50  0000 R CNN
@@ -1529,7 +1528,7 @@ VCC
 Wire Wire Line
 	4250 650  4250 900 
 $Comp
-L Schematic:Diode_Array_7pin_(Anode-Common) DA2
+L Motherboard:Diode_Array_7pin_(Anode-Common) DA2
 U 1 1 5E8CEEDD
 P 4150 2150
 F 0 "DA2" H 3800 2050 50  0000 L CNN
@@ -1710,7 +1709,7 @@ Text Label 6300 1650 2    50   ~ 0
 Text Label 6300 1750 2    50   ~ 0
 GND
 $Comp
-L NES-CPU-11:Controller_Port Controller_Port_2
+L Motherboard:Controller_Port Controller_Port_2
 U 1 1 5F41BB80
 P 1350 3350
 F 0 "Controller_Port_2" H 1350 3700 50  0000 C CNN
@@ -1886,7 +1885,7 @@ F 3 "~" H 3450 3150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Schematic:Diode_Array_7pin_(Cathode-Common) DA3
+L Motherboard:Diode_Array_7pin_(Cathode-Common) DA3
 U 1 1 5F41BBE4
 P 4150 2450
 F 0 "DA3" H 3950 2450 50  0000 R CNN
@@ -1901,7 +1900,7 @@ VCC
 Wire Wire Line
 	4250 2350 4250 2600
 $Comp
-L Schematic:Diode_Array_7pin_(Anode-Common) DA4
+L Motherboard:Diode_Array_7pin_(Anode-Common) DA4
 U 1 1 5F41BBEC
 P 4150 3850
 F 0 "DA4" H 3800 3750 50  0000 L CNN
@@ -2028,7 +2027,7 @@ F 3 "~" H 2550 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L NES-CPU-11:74HC368 U7
+L Motherboard:74HC368 U7
 U 1 1 5FA4F885
 P 7500 1350
 F 0 "U7" H 7250 1850 50  0000 C CNN
@@ -2100,7 +2099,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 1700 8350 1700
 $Comp
-L NES-CPU-11:74HC368 U8
+L Motherboard:74HC368 U8
 U 1 1 5FF817ED
 P 7450 2500
 F 0 "U8" H 7200 3000 50  0000 C CNN
@@ -2682,7 +2681,7 @@ Connection ~ 3500 4950
 Text Notes 2300 4650 2    50   ~ 10
 MONO AUDIO MIXER & AMPLIFER
 $Comp
-L Motherboard-rescue:Ferrite_Core-Schematic FC1
+L Motherboard:Ferrite_Core FC1
 U 1 1 5D8FC474
 P 3950 5100
 F 0 "FC1" H 3737 5125 50  0000 C CNN
@@ -3315,7 +3314,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4900 8050 4900
 $Comp
-L NES-CPU-11:10NES_CIC U10
+L Motherboard:10NES_CIC U10
 U 1 1 5DB00CBC
 P 7600 5300
 F 0 "U10" H 7300 5850 50  0000 C CNN
@@ -3767,7 +3766,6 @@ Wire Wire Line
 	5000 7000 5000 7150
 Text Label 5000 7150 1    50   ~ 0
 GND
-Connection ~ 3900 5300
 Wire Wire Line
 	3900 5300 4200 5300
 Text Label 8000 6400 2    50   ~ 0
