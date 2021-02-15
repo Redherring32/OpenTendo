@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.45)
     (user_trace_width 0.5)
     (user_trace_width 1.25)
@@ -4806,7 +4806,7 @@
     (fp_text reference R13 (at 5.1 0.05 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1.2K (at 5 -2.375 90) (layer F.SilkS)
+    (fp_text value 150K (at 5 -2.375 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 5.08 0 90) (layer F.Fab)
