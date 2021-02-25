@@ -31,7 +31,7 @@ Since this project is open-source you may do as you like with it, whether that i
 
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
-*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  and PPU[1] to function.
+*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  and PPU[2] to function.
   
 These are the only two parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
