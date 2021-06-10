@@ -1,6 +1,13 @@
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
+
+## Note on RGB and HDMI:
+
+Neither RGB nor HDMI video output were or are a goal of the OpenTendo project, the goal was/is documentation and preservation, and the project was an exercise in reverse engineering. As such "improved" video outputs will not be added to OpenTendo.
+
+NESRGB and Hi-Def NES can be installed as normal, but will not be incorporated into the OpenTendo PCB
+
 ## Repository Structure:
 
 * Board Files: Contains all files necessary to open the project in KiCad, as well as the schematic and schematic symbols
@@ -18,11 +25,11 @@ The files required to order PCBs can be found under releases.
 
 * 1.6mm thickness
 
-* HASL surface finish
+* HASL or ENiG surface finish
 
 * And any color you want!
 
-![Board Front](https://i.imgur.com/nQP6BoM.jpg)
+![Board Front](https://i.imgur.com/yBy1h27.jpeg)
 
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
 as well as some improvements. (Expansion audio enabled, and other minor changes)
