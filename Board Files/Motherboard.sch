@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Motherboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2241,17 +2242,6 @@ Text Label 8800 4100 1    50   ~ 0
 Wire Wire Line
 	8800 4100 8800 3800
 $Comp
-L Device:R R15
-U 1 1 60B446CF
-P 13150 6100
-F 0 "R15" V 13050 5900 50  0000 L CNN
-F 1 "100K" V 13050 6150 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 13080 6100 50  0001 C CNN
-F 3 "~" H 13150 6100 50  0001 C CNN
-	1    13150 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Variable TC1
 U 1 1 5D8E3F5E
 P 2600 7550
@@ -2402,7 +2392,7 @@ U 1 1 5E841A82
 P 1800 8550
 F 0 "C44" V 1650 8550 50  0000 C CNN
 F 1 "220pF" V 1550 8550 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1800 8550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1800 8550 50  0001 C CNN
 F 3 "~" H 1800 8550 50  0001 C CNN
 	1    1800 8550
 	0    -1   -1   0   
@@ -2704,7 +2694,7 @@ U 1 1 5DD404CF
 P 3900 5400
 F 0 "C4" H 4100 5350 50  0000 C CNN
 F 1 "220pF" H 4100 5450 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3900 5400 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3900 5400 50  0001 C CNN
 F 3 "~" H 3900 5400 50  0001 C CNN
 	1    3900 5400
 	-1   0    0    1   
@@ -3100,7 +3090,7 @@ U 1 1 5FDFF045
 P 5150 7100
 F 0 "C7" H 5000 7050 50  0000 C CNN
 F 1 "220pF" H 4950 7150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5150 7100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5150 7100 50  0001 C CNN
 F 3 "~" H 5150 7100 50  0001 C CNN
 	1    5150 7100
 	-1   0    0    1   
@@ -3111,7 +3101,7 @@ U 1 1 5FC5EB8E
 P 4850 7100
 F 0 "C6" H 5050 7050 50  0000 C CNN
 F 1 "220pF" H 5050 7150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 4850 7100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4850 7100 50  0001 C CNN
 F 3 "~" H 4850 7100 50  0001 C CNN
 	1    4850 7100
 	-1   0    0    1   
@@ -3742,12 +3732,6 @@ Wire Wire Line
 Text Notes 3150 9100 0    50   ~ 10
 FILTER CAPACITORS
 Wire Wire Line
-	13150 5750 13150 5950
-Wire Wire Line
-	13150 5750 13950 5750
-Wire Wire Line
-	13150 6350 13950 6350
-Wire Wire Line
 	4850 6800 4850 7000
 $Comp
 L Device:Crystal_GND2 X2
@@ -3867,23 +3851,7 @@ Connection ~ 3400 8250
 Wire Wire Line
 	3400 8250 3450 8250
 Wire Wire Line
-	13150 6250 13150 6350
-Wire Wire Line
 	8000 6700 7550 6700
-$Comp
-L Connector:Conn_01x05_Male P6-Alt
-U 1 1 602E4639
-P 8200 7600
-F 0 "P6-Alt" H 8150 7500 50  0000 R CNN
-F 1 " " H 8100 7750 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal" H 8200 7600 50  0001 C CNN
-F 3 "~" H 8200 7600 50  0001 C CNN
-	1    8200 7600
-	-1   0    0    1   
-$EndComp
-Connection ~ 8000 7800
-Connection ~ 8000 7700
-Connection ~ 8000 7600
-Connection ~ 8000 7500
-Connection ~ 8000 7400
+Wire Wire Line
+	13250 5750 13950 5750
 $EndSCHEMATC
