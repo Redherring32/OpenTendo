@@ -1,4 +1,4 @@
-update=2/15/2021 12:34:27 PM
+update=11/5/2021 4:25:38 PM
 version=1
 last_client=kicad
 [general]
@@ -243,7 +243,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=C:/Users/Redherring32/Documents/OpenTendo.git/trunk/Schematics/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

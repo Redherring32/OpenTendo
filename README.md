@@ -14,6 +14,7 @@ NESRGB and Hi-Def NES can be installed as normal, but will not be incorporated i
 
 * Component Footprints: Contains a library of all the custom footprints used on the board
 
+* Schematics: Contains schematics for the OEM frontloading NES board revisions, some schematics represent more than one revision
 
 The files required to order PCBs can be found under releases.
 
@@ -64,7 +65,7 @@ the TAPR Open Hardware License (www.tapr.org/OHL)
 *=Lockster=* -Helping me tremendously along the way, keeping me from going insane, and cleaning up/helping with the final schematic. 
 
 
-*Krzysiobal* -Putting together the NES-CPU-11 schematic that my schematic is largely built upon.
+*Krzysiobal* -Putting together the NES-CPU-11 schematic that my schematic is largely referrenced against.
 
 
 And to all of the awesome people in the NES scene, I wouldn't have been able to do this without the awesome work that some very clever people did before I got here. 
