@@ -1050,7 +1050,7 @@
     (property "Value" "R Audio" (id 1) (at 233.68 110.7831 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (id 2) (at 231.14 109.22 0)
+    (property "Footprint" "NESRE:RCA" (id 2) (at 231.14 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 231.14 109.22 0)
@@ -1203,7 +1203,7 @@
     (property "Value" "L Audio" (id 1) (at 233.68 119.6731 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (id 2) (at 231.14 118.11 0)
+    (property "Footprint" "NESRE:RCA" (id 2) (at 231.14 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 231.14 118.11 0)
@@ -1222,7 +1222,7 @@
     (property "Value" "Video" (id 1) (at 222.25 119.6731 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" (id 2) (at 219.71 118.11 0)
+    (property "Footprint" "NESRE:RCA" (id 2) (at 219.71 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 219.71 118.11 0)
@@ -1362,13 +1362,13 @@
       (reference "J3") (unit 1) (value " ") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
     )
     (path "/6c57eb83-6e6a-40bc-a4f9-a1fc73ec9a6a"
-      (reference "J4") (unit 1) (value "Video") (footprint "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal")
+      (reference "J4") (unit 1) (value "Video") (footprint "NESRE:RCA")
     )
     (path "/0b1d7959-5da3-4a8b-af77-fb6132d0ae4e"
-      (reference "J5") (unit 1) (value "R Audio") (footprint "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal")
+      (reference "J5") (unit 1) (value "R Audio") (footprint "NESRE:RCA")
     )
     (path "/635813af-0a85-42f2-9a7d-f6500b4a91aa"
-      (reference "J6") (unit 1) (value "L Audio") (footprint "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal")
+      (reference "J6") (unit 1) (value "L Audio") (footprint "NESRE:RCA")
     )
     (path "/ee3944ca-c505-472c-9b27-baea09596597"
       (reference "P6") (unit 1) (value "MOD RF") (footprint "NESRE:Mod_RF_Con")
