@@ -1,0 +1,105 @@
+(footprint "PowerReset-switch-In"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "P6"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "793c7737-43c7-44f0-b3f0-8962e57b10d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PWR/RST IN"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "56172f64-2ee6-40be-ad20-e233a8532322")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PowerReset-switch-In"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47e0fd20-64a8-4755-bda4-8b1579d0a978")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2079099a-09a9-48f7-9886-e7bfd29aca49")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9bb99a2c-e14c-42bc-9b2a-1aba358cbabb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole rect
+		(at 22.5 0 90)
+		(size 3.25 3.25)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d533b41b-9c28-4dec-b7ec-731d077ab706")
+	)
+	(pad "2" thru_hole circle
+		(at 15 0 90)
+		(size 3.25 3.25)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d1fcd3a0-0a58-4b2d-991d-94126385b0e3")
+	)
+	(pad "3" thru_hole circle
+		(at 10 0 90)
+		(size 3.25 3.25)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "130594ad-f776-4a76-8b08-a8fa2801f377")
+	)
+	(pad "4" thru_hole circle
+		(at 5 0 90)
+		(size 3.25 3.25)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f059c9a-bfe4-48c3-a5a5-94932840fa3f")
+	)
+	(pad "5" thru_hole circle
+		(at 0 0 90)
+		(size 3.25 3.25)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f96942a-45dc-4dab-95ef-d95a94f99c64")
+	)
+)
