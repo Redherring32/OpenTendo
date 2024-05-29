@@ -27304,7 +27304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+		(property "Footprint" "NESRE:TO-126-3_Vertical_Short"
 			(at 273.05 218.44 0)
 			(effects
 				(font
@@ -28428,7 +28428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+		(property "Footprint" "NESRE:TO-126-3_Vertical_Short"
 			(at 82.55 189.23 0)
 			(effects
 				(font
@@ -28501,7 +28501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+		(property "Footprint" "NESRE:TO-126-3_Vertical_Short"
 			(at 34.29 189.23 0)
 			(effects
 				(font
