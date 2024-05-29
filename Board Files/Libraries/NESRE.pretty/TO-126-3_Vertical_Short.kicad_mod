@@ -1,0 +1,263 @@
+(footprint "TO-126-3_Vertical_Short"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-126-3, Vertical, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf")
+	(tags "TO-126-3 Vertical RM 2.54mm")
+	(property "Reference" "Q2"
+		(at 2.54 -3.12 0)
+		(layer "F.SilkS")
+		(uuid "8522e46b-fc89-4751-a0a8-5b4d8cb1504f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2SC2021"
+		(at 2.54 2.5 0)
+		(layer "F.Fab")
+		(uuid "9a19f7aa-3adc-4425-a5bd-1d11f5cd3483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TO-126-3_Vertical_Short"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b408d00-655f-4925-8a6e-f7ac09092b1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f7339c4-b567-434f-b87f-dd4b4705978b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c03c7b70-e7e7-4979-8cd4-c3e85a86ce3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.58 -2.12)
+		(end -1.58 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50bf27db-94c3-44a3-85b2-3c7bc5a395fd")
+	)
+	(fp_line
+		(start -1.58 -2.12)
+		(end 6.66 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93be4919-c1ae-486f-a2c8-028f658dbf55")
+	)
+	(fp_line
+		(start -1.58 1.37)
+		(end 6.66 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17e48e9a-d247-4971-ba05-3d81793e4875")
+	)
+	(fp_line
+		(start 1.05 -2.12)
+		(end 1.05 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ee05214-ac83-4be1-9ece-63fa88148f06")
+	)
+	(fp_line
+		(start 6.66 -2.12)
+		(end 6.66 1.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "def197f1-813d-4dc7-9059-6523dd8f9242")
+	)
+	(fp_line
+		(start -1.71 -2.25)
+		(end -1.71 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9ee47e5-5215-484d-a516-584730651e28")
+	)
+	(fp_line
+		(start -1.71 1.5)
+		(end 6.79 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3de849ee-e8f4-4656-8879-bd1e3d312b5c")
+	)
+	(fp_line
+		(start 6.79 -2.25)
+		(end -1.71 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c58c2f7-10b6-4e3e-9fdd-f7b9c4d98d66")
+	)
+	(fp_line
+		(start 6.79 1.5)
+		(end 6.79 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f1e131b-c217-403f-b949-c761e31f88ef")
+	)
+	(fp_line
+		(start -1.46 -2)
+		(end -1.46 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5bf53c6c-db7a-4be7-ad58-9044affa91f8")
+	)
+	(fp_line
+		(start -1.46 1.25)
+		(end 6.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d92cab68-8ce6-4126-b65b-7edb40226c60")
+	)
+	(fp_line
+		(start 1.05 -2)
+		(end 1.05 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e4422500-d8b3-4a0d-82c2-db80312548c7")
+	)
+	(fp_line
+		(start 4.14 -2)
+		(end 4.14 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a888258c-1e70-4d9d-9e7e-fbc2daec210c")
+	)
+	(fp_line
+		(start 6.54 -2)
+		(end -1.46 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9085fb83-617d-4b4a-95be-cb649e7089ea")
+	)
+	(fp_line
+		(start 6.54 1.25)
+		(end 6.54 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5549b160-d69a-4820-a001-c97e0eeedc74")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -3.12 0)
+		(layer "F.Fab")
+		(uuid "3cd75142-e9e9-46fc-9875-b1f4fc38d31a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad53b054-25b3-4983-992a-dc073c2ca86d")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a505a35-6a23-49a6-941c-1413c3b771b4")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a7897f6-19ce-4b8c-b1e3-95745cabc623")
+	)
+	(model "${KIPRJMOD}/Libraries/TO-126-3_Vertical_short.step"
+		(offset
+			(xyz 0.1 2 4.5)
+		)
+		(scale
+			(xyz 1.1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
