@@ -1,3 +1,5 @@
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat)](https://discord.gg/XFrcBYFdBN)
+
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
