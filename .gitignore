@@ -1,0 +1,5 @@
+# KiCad lock files
+*.kicad*.lck
+
+# Backups
+*/**-backups/**.*
