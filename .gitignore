@@ -3,3 +3,7 @@
 
 # Backups
 */**-backups/**.*
+
+# Autosaves
+**autosave**
+**auto_save**
