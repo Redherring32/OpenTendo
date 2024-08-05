@@ -1,5 +1,5 @@
-# Ignore list for KiCAD Projects# Temporary files
-
+# Ignore list for KiCAD Projects
+# Temporary files
 *.000
 *.bak
 *.bck
@@ -14,14 +14,24 @@ fp-info-cache# Netlist files (exported from Eeschema)
 *-backups
 fp-info-cache
 
-#Ignore Gerbers Directories
+# KiCad lock files
+*.kicad*.lck
+
+# Backups
+*/**-backups/**.*
+
+# Autosaves
+**autosave**
+**auto_save**
+
+# Ignore Gerbers Directories
 Gerbers
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
 
-#Ignore LibreOffice temp files
+# Ignore LibreOffice temp files
 .~lock*
 
 
