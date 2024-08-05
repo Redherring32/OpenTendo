@@ -8,10 +8,12 @@
 		(title "NES-CPU-11")
 		(rev "11")
 		(company "Nintendo Co., LTD")
-		(comment 1 "Clean-Up by =Lockster=")
-		(comment 2 "KiCad Schematic by Redherring32")
-		(comment 3 "Reverse Engineered by Krzysiobal")
-		(comment 4 "Nintendo Entertainment System (NES) Motherboard")
+		(comment 2 "Schematic Clean up By Kamoteshake")
+		(comment 3 "Ported to KiCad v8 and PCB Clean up By Muramasa")
+		(comment 4 "Clean-Up by =Lockster=")
+		(comment 5 "KiCad Schematic by Redherring32")
+		(comment 6 "Reverse Engineered by Krzysiobal")
+		(comment 7 "Nintendo Entertainment System (NES) Motherboard")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS04"
@@ -3280,23 +3282,22 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_Small"
-			(pin_numbers hide)
+		(symbol "Device:Crystal_GND3"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 2.54 0)
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Crystal_Small"
-				(at 0 -2.54 0)
+			(property "Value" "Crystal_GND3"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3321,7 +3322,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal, small symbol"
+			(property "Description" "Three pin crystal, GND on pin 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3348,10 +3349,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_Small_0_1"
+			(symbol "Crystal_GND3_0_1"
 				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -3362,10 +3375,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
+						(xy -1.905 -1.27) (xy -1.905 1.27)
 					)
 					(stroke
-						(width 0.381)
+						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -3374,10 +3387,46 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
+						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
-						(width 0.381)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3385,9 +3434,9 @@
 					)
 				)
 			)
-			(symbol "Crystal_Small_1_1"
+			(symbol "Crystal_GND3_1_1"
 				(pin passive line
-					(at -2.54 0 0)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name "1"
 						(effects
@@ -3405,7 +3454,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 0 180)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -3415,6 +3464,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14208,7 +14275,7 @@
 		(uuid "5494b4b5-6b06-403a-bf00-b2a3369c2e53")
 	)
 	(junction
-		(at 146.05 205.74)
+		(at 143.51 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5823e9f8-db31-42d9-bee2-28f7eabf9dc3")
@@ -14452,6 +14519,14 @@
 		(uuid "25f5f601-5942-4677-82af-7c2810569f6e")
 	)
 	(no_connect
+		(at 53.34 196.85)
+		(uuid "4ea2ee9a-680a-4afc-be0e-36b1bb421f05")
+	)
+	(no_connect
+		(at -58.42 167.64)
+		(uuid "618d5922-966e-4448-b5fd-94c0df4c4d26")
+	)
+	(no_connect
 		(at 308.61 72.39)
 		(uuid "61b72be1-fcec-4fe6-be6b-6969b319489b")
 	)
@@ -14474,6 +14549,10 @@
 	(no_connect
 		(at 308.61 52.07)
 		(uuid "d9586fa6-e8fa-4d7f-af34-ae31be1a0702")
+	)
+	(no_connect
+		(at 279.4 363.22)
+		(uuid "e547dd9d-7c1d-4284-a2d8-a64c69e1770a")
 	)
 	(no_connect
 		(at 308.61 46.99)
@@ -14931,7 +15010,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 200.66) (xy 128.27 200.66)
+			(xy 143.51 208.28) (xy 125.73 208.28)
 		)
 		(stroke
 			(width 0)
@@ -15381,7 +15460,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 198.12) (xy 128.27 198.12)
+			(xy 158.75 205.74) (xy 125.73 205.74)
 		)
 		(stroke
 			(width 0)
@@ -16821,7 +16900,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 205.74) (xy 161.29 198.12)
+			(xy 158.75 213.36) (xy 158.75 205.74)
 		)
 		(stroke
 			(width 0)
@@ -17221,7 +17300,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 205.74) (xy 130.81 205.74)
+			(xy 125.73 213.36) (xy 128.27 213.36)
 		)
 		(stroke
 			(width 0)
@@ -17851,7 +17930,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 214.63) (xy 149.86 214.63)
+			(xy 143.51 222.25) (xy 147.32 222.25)
 		)
 		(stroke
 			(width 0)
@@ -18561,7 +18640,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 205.74) (xy 146.05 214.63)
+			(xy 143.51 213.36) (xy 143.51 222.25)
 		)
 		(stroke
 			(width 0)
@@ -18801,7 +18880,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 203.2) (xy 143.51 203.2)
+			(xy 125.73 210.82) (xy 140.97 210.82)
 		)
 		(stroke
 			(width 0)
@@ -19161,7 +19240,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 195.58) (xy 163.83 214.63)
+			(xy 161.29 203.2) (xy 161.29 222.25)
 		)
 		(stroke
 			(width 0)
@@ -20221,7 +20300,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 205.74) (xy 146.05 205.74)
+			(xy 146.05 213.36) (xy 143.51 213.36)
 		)
 		(stroke
 			(width 0)
@@ -20461,7 +20540,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 205.74) (xy 146.05 200.66)
+			(xy 143.51 213.36) (xy 143.51 208.28)
 		)
 		(stroke
 			(width 0)
@@ -20581,7 +20660,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 214.63) (xy 157.48 214.63)
+			(xy 161.29 222.25) (xy 154.94 222.25)
 		)
 		(stroke
 			(width 0)
@@ -21091,7 +21170,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 205.74) (xy 161.29 205.74)
+			(xy 156.21 213.36) (xy 158.75 213.36)
 		)
 		(stroke
 			(width 0)
@@ -21291,7 +21370,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 195.58) (xy 163.83 195.58)
+			(xy 125.73 203.2) (xy 161.29 203.2)
 		)
 		(stroke
 			(width 0)
@@ -21441,7 +21520,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 203.2) (xy 143.51 205.74)
+			(xy 140.97 210.82) (xy 140.97 213.36)
 		)
 		(stroke
 			(width 0)
@@ -21581,7 +21660,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 205.74) (xy 140.97 205.74)
+			(xy 140.97 213.36) (xy 138.43 213.36)
 		)
 		(stroke
 			(width 0)
@@ -21618,6 +21697,42 @@
 			(type default)
 		)
 		(uuid "ff331f00-743b-45b4-a343-43147817d55b")
+	)
+	(rectangle
+		(start 16.51 24.13)
+		(end 82.55 59.69)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04f29bc2-12cb-422d-9e61-8a94ee1888a8)
+	)
+	(rectangle
+		(start 16.51 67.31)
+		(end 82.55 102.87)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c5e15c3-f881-47e9-a301-834738ab9db4)
+	)
+	(rectangle
+		(start 114.3 196.85)
+		(end 163.83 229.87)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61f6ec31-82a2-4a95-8107-8c87170b3cde)
 	)
 	(text "72-PIN CARTRIDGE CONNECTOR"
 		(exclude_from_sim no)
@@ -21696,6 +21811,36 @@
 			(justify left bottom)
 		)
 		(uuid "8f309cfa-a8d0-4fb1-9a01-5b0e6c44b221")
+	)
+	(text "Player 2 Port"
+		(exclude_from_sim no)
+		(at 23.876 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96303d41-293d-4adb-9a3e-996711a5e861")
+	)
+	(text "Player 1 Port"
+		(exclude_from_sim no)
+		(at 23.622 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96eb6a9e-3fae-4a40-995d-f51f345b5bfc")
+	)
+	(text "Power/Reset Breakout Board"
+		(exclude_from_sim no)
+		(at 129.032 198.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98efa6b1-b647-41c1-b976-b891176dc5d0")
 	)
 	(text "CHECKING INTERGRATED CIRCUIT & POWER/RESET BOARD"
 		(exclude_from_sim no)
@@ -29195,7 +29340,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dbf1d97")
 		(property "Reference" "C42"
-			(at 50.8 196.85 0)
+			(at 48.768 200.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29204,7 +29349,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 50.8 199.39 0)
+			(at 48.768 202.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29263,7 +29408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcea036")
-		(property "Reference" "Controller_Port_1"
+		(property "Reference" "#Controller_Port_1"
 			(at 34.29 33.02 0)
 			(effects
 				(font
@@ -29330,7 +29475,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "Controller_Port_1")
+					(reference "#Controller_Port_1")
 					(unit 1)
 				)
 			)
@@ -29345,7 +29490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dceb207")
-		(property "Reference" "D6"
+		(property "Reference" "#D6"
 			(at 68.58 27.94 0)
 			(effects
 				(font
@@ -29359,6 +29504,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29397,7 +29543,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D6")
+					(reference "#D6")
 					(unit 1)
 				)
 			)
@@ -29412,7 +29558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcfa2bd")
-		(property "Reference" "D7"
+		(property "Reference" "#D7"
 			(at 68.58 30.48 0)
 			(effects
 				(font
@@ -29426,6 +29572,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29464,7 +29611,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D7")
+					(reference "#D7")
 					(unit 1)
 				)
 			)
@@ -29479,7 +29626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd0608e")
-		(property "Reference" "D8"
+		(property "Reference" "#D8"
 			(at 68.58 33.02 0)
 			(effects
 				(font
@@ -29493,6 +29640,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29531,7 +29679,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D8")
+					(reference "#D8")
 					(unit 1)
 				)
 			)
@@ -29546,7 +29694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd11e28")
-		(property "Reference" "D5"
+		(property "Reference" "#D5"
 			(at 68.58 35.56 0)
 			(effects
 				(font
@@ -29560,6 +29708,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29598,7 +29747,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D5")
+					(reference "#D5")
 					(unit 1)
 				)
 			)
@@ -29613,7 +29762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd1db5e")
-		(property "Reference" "D3"
+		(property "Reference" "#D3"
 			(at 68.58 38.1 0)
 			(effects
 				(font
@@ -29627,6 +29776,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29665,7 +29815,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D3")
+					(reference "#D3")
 					(unit 1)
 				)
 			)
@@ -29680,7 +29830,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dd373b6")
-		(property "Reference" "D4"
+		(property "Reference" "#D4"
 			(at 68.58 40.64 0)
 			(effects
 				(font
@@ -29694,6 +29844,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -29732,7 +29883,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D4")
+					(reference "#D4")
 					(unit 1)
 				)
 			)
@@ -29814,7 +29965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ddf1db2")
-		(property "Reference" "C47"
+		(property "Reference" "#C47"
 			(at 64.77 45.72 90)
 			(effects
 				(font
@@ -29866,7 +30017,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "C47")
+					(reference "#C47")
 					(unit 1)
 				)
 			)
@@ -29881,7 +30032,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005de14042")
-		(property "Reference" "J1"
+		(property "Reference" "#J1"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -29948,7 +30099,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "J1")
+					(reference "#J1")
 					(unit 1)
 				)
 			)
@@ -31444,7 +31595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb80")
-		(property "Reference" "Controller_Port_2"
+		(property "Reference" "#Controller_Port_2"
 			(at 34.29 76.2 0)
 			(effects
 				(font
@@ -31511,7 +31662,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "Controller_Port_2")
+					(reference "#Controller_Port_2")
 					(unit 1)
 				)
 			)
@@ -31526,7 +31677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb86")
-		(property "Reference" "D12"
+		(property "Reference" "#D12"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -31540,6 +31691,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31578,7 +31730,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D12")
+					(reference "#D12")
 					(unit 1)
 				)
 			)
@@ -31593,7 +31745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb8c")
-		(property "Reference" "D13"
+		(property "Reference" "#D13"
 			(at 68.58 73.66 0)
 			(effects
 				(font
@@ -31607,6 +31759,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31645,7 +31798,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D13")
+					(reference "#D13")
 					(unit 1)
 				)
 			)
@@ -31660,7 +31813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb92")
-		(property "Reference" "D14"
+		(property "Reference" "#D14"
 			(at 68.58 76.2 0)
 			(effects
 				(font
@@ -31674,6 +31827,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31712,7 +31866,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D14")
+					(reference "#D14")
 					(unit 1)
 				)
 			)
@@ -31727,7 +31881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb98")
-		(property "Reference" "D11"
+		(property "Reference" "#D11"
 			(at 68.58 78.74 0)
 			(effects
 				(font
@@ -31741,6 +31895,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31779,7 +31934,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D11")
+					(reference "#D11")
 					(unit 1)
 				)
 			)
@@ -31794,7 +31949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bb9e")
-		(property "Reference" "D9"
+		(property "Reference" "#D9"
 			(at 68.58 81.28 0)
 			(effects
 				(font
@@ -31808,6 +31963,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31846,7 +32002,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D9")
+					(reference "#D9")
 					(unit 1)
 				)
 			)
@@ -31861,7 +32017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bba4")
-		(property "Reference" "D10"
+		(property "Reference" "#D10"
 			(at 68.58 83.82 0)
 			(effects
 				(font
@@ -31875,6 +32031,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -31913,7 +32070,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "D10")
+					(reference "#D10")
 					(unit 1)
 				)
 			)
@@ -31928,7 +32085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bbc2")
-		(property "Reference" "C48"
+		(property "Reference" "#C48"
 			(at 64.77 88.9 90)
 			(effects
 				(font
@@ -31980,7 +32137,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "C48")
+					(reference "#C48")
 					(unit 1)
 				)
 			)
@@ -31995,7 +32152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f41bbcb")
-		(property "Reference" "J2"
+		(property "Reference" "#J2"
 			(at 76.2 68.58 0)
 			(effects
 				(font
@@ -32062,7 +32219,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "J2")
+					(reference "#J2")
 					(unit 1)
 				)
 			)
@@ -33043,7 +33200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_Small")
+		(lib_id "Device:Crystal_GND3")
 		(at 53.34 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33085,7 +33242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Three pin crystal, GND on pin 3"
 			(at 53.34 191.77 0)
 			(effects
 				(font
@@ -33099,6 +33256,9 @@
 		)
 		(pin "2"
 			(uuid "66594ebd-a7a2-4619-ae71-8848d40c27b1")
+		)
+		(pin "3"
+			(uuid "d49237e9-971b-4cf0-b99a-c73bb41ad36b")
 		)
 		(instances
 			(project "Motherboard"
@@ -35234,15 +35394,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
-		(at 123.19 200.66 180)
+		(at 120.65 208.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062e9c757")
-		(property "Reference" "P7"
-			(at 121.92 199.39 0)
+		(property "Reference" "#P7"
+			(at 116.84 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35251,7 +35411,7 @@
 			)
 		)
 		(property "Value" "PWR/RST OUT"
-			(at 121.92 201.93 0)
+			(at 119.126 201.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35260,7 +35420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 200.66 0)
+			(at 120.65 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35269,7 +35429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 200.66 0)
+			(at 120.65 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35278,7 +35438,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 123.19 200.66 0)
+			(at 120.65 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35304,7 +35464,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "P7")
+					(reference "#P7")
 					(unit 1)
 				)
 			)
@@ -35312,15 +35472,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 135.89 205.74 0)
+		(at 133.35 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006307ea64")
-		(property "Reference" "SW2"
-			(at 135.89 208.28 0)
+		(property "Reference" "#SW2"
+			(at 133.35 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35328,7 +35488,7 @@
 			)
 		)
 		(property "Value" "POWERSW"
-			(at 135.89 210.82 0)
+			(at 133.35 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35336,7 +35496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 205.74 0)
+			(at 133.35 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35345,7 +35505,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 205.74 0)
+			(at 133.35 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35354,7 +35514,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 205.74 0)
+			(at 133.35 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35371,7 +35531,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "SW2")
+					(reference "#SW2")
 					(unit 1)
 				)
 			)
@@ -35379,15 +35539,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 153.67 205.74 0)
+		(at 151.13 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000630824b6")
-		(property "Reference" "SW1"
-			(at 153.67 208.28 0)
+		(property "Reference" "#SW1"
+			(at 151.13 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35395,7 +35555,7 @@
 			)
 		)
 		(property "Value" "RESETSW"
-			(at 153.67 210.82 0)
+			(at 151.13 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35403,7 +35563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 205.74 0)
+			(at 151.13 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35412,7 +35572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 205.74 0)
+			(at 151.13 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35421,7 +35581,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 205.74 0)
+			(at 151.13 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35438,7 +35598,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "SW1")
+					(reference "#SW1")
 					(unit 1)
 				)
 			)
@@ -35446,15 +35606,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 153.67 214.63 180)
+		(at 151.13 222.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000631b82c9")
-		(property "Reference" "LED1"
-			(at 153.67 217.17 0)
+		(property "Reference" "#LED1"
+			(at 151.13 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35462,7 +35622,7 @@
 			)
 		)
 		(property "Value" "POWERLED"
-			(at 153.67 219.71 0)
+			(at 151.13 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35470,7 +35630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 214.63 0)
+			(at 151.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35479,7 +35639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 214.63 0)
+			(at 151.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35488,7 +35648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 214.63 0)
+			(at 151.13 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35505,7 +35665,7 @@
 		(instances
 			(project "Motherboard"
 				(path "/d10b47ec-15d7-4098-8a2a-c0827f933fba"
-					(reference "LED1")
+					(reference "#LED1")
 					(unit 1)
 				)
 			)
