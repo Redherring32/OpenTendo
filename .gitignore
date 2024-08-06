@@ -17,9 +17,6 @@ fp-info-cache
 # KiCad lock files
 *.kicad*.lck
 
-# Backups
-*/**-backups/**.*
-
 # Autosaves
 **autosave**
 **auto_save**
