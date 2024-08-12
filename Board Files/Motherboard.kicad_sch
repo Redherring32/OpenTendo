@@ -8,7 +8,7 @@
 		(title "NES-CPU-11")
 		(rev "11")
 		(company "Nintendo Co., LTD")
-		(comment 2 "Schematic Clean up and RAM Footprint By Kamoteshake")
+		(comment 2 "Schematic Clean up and EXP Footprint Fix By Kamoteshake")
 		(comment 3 "Ported to KiCad v8 and PCB Clean up By Muramasa")
 		(comment 4 "Clean-Up by =Lockster=")
 		(comment 5 "KiCad Schematic by Redherring32")
