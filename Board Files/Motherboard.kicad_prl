@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 44,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -9,10 +9,10 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 0.4699999988079071,
-      "pads": 0.8299999833106995,
+      "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.5
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
