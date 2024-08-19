@@ -64,11 +64,14 @@ the TAPR Open Hardware License (www.tapr.org/OHL)
 
 
 ## Credits
-*=Lockster=* -Helping me tremendously along the way, keeping me from going insane, and cleaning up/helping with the final schematic. 
+*=Lockster=* - Helping me tremendously along the way, keeping me from going insane, and cleaning up/helping with the final schematic. 
 
 
-*Krzysiobal* -Putting together the NES-CPU-11 schematic that my schematic is largely referrenced against.
+*Krzysiobal* - Putting together the NES-CPU-11 schematic that my schematic is largely referrenced against.
 
+*[Muramasa](https://github.com/muramasatheninja)* - Ported to KiCad v8, PCB clean up, and fixing the EXP port footprint.
+
+*[Kamoteshake](https://github.com/kamoteshake)* - Schematic clean up and fixing the EXP port footprint.
 
 And to all of the awesome people in the NES scene, I wouldn't have been able to do this without the awesome work that some very clever people did before I got here. 
 
