@@ -8,12 +8,10 @@
 		(title "NES-CPU-11")
 		(rev "11")
 		(company "Nintendo Co., LTD")
-		(comment 2 "Schematic Clean up and EXP Footprint Fix By Kamoteshake")
-		(comment 3 "Ported to KiCad v8 and PCB Clean up By Muramasa")
-		(comment 4 "Clean-Up by =Lockster=")
-		(comment 5 "KiCad Schematic by Redherring32")
-		(comment 6 "Reverse Engineered by Krzysiobal")
-		(comment 7 "Nintendo Entertainment System (NES) Motherboard")
+		(comment 1 "Clean-Up by =Lockster=")
+		(comment 2 "KiCad Schematic by Redherring32")
+		(comment 3 "Reverse Engineered by Krzysiobal")
+		(comment 4 "Nintendo Entertainment System (NES) Motherboard")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS04"
