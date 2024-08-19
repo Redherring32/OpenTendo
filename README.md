@@ -1,3 +1,8 @@
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat)](https://discord.gg/XFrcBYFdBN)
+
+> [!CAUTION]
+> This is an old revision of Modded OpenTendo. Check the [modded](https://github.com/Redherring32/OpenTendo/tree/modded) branch for the latest revision.
+
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
