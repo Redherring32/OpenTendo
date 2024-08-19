@@ -1,13 +1,6 @@
 # Build of Materials
 We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and import the [BOM.csv](BOM.csv).
 
-<!-- Style to limit the first column's width -->
-<style>
-  table th:first-of-type {
-    width: 125px;
-  }
-</style>
-
 ### Resistors
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
@@ -31,7 +24,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | --------- | :-: | ---- | ----------- |
 | BC1, BC2 | 2 | [K153K10X7RF5UH5](https://octopart.com/k153k10x7rf5uh5-vishay-44033224) | 0.015 µF 50V Ceramic Capacitor |
 | C1 | 1 | [ECE-A0JKA101I](https://octopart.com/ece-a0jka101i-panasonic-15327038) | 100 µF 6.3 V Electrolytic Capacitor |
-| C2, C3, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C22, C24, C26, C32, C38, C39, C40 | 19 | [K103K10X7RF5UH5](https://octopart.com/k103k10x7rf5uh5-vishay-44280222) | 10000 pF 50V Ceramic Capacitor |
+| C2, C3, C10, C11,<br />C12, C13, C14,<br />C15, C16, C17,<br />C18, C19, C22,<br />C24, C26, C32,<br />C38, C39, C40 | 19 | [K103K10X7RF5UH5](https://octopart.com/k103k10x7rf5uh5-vishay-44280222) | 10000 pF 50V Ceramic Capacitor |
 | C4 | 1 | [K221K15X7RF5TH5](https://octopart.com/k221k15x7rf5th5-vishay-39474957) | 220 pF 50V Ceramic Capacitor 5mm |
 | C5 | 1 | [K331K15X7RF53L2](https://octopart.com/k331k15x7rf53l2-vishay-42623274) | 330 pF 50V Ceramic Capacitor |
 | C8, C46 | 2 | [K104K15X7RF5UH5](https://octopart.com/k104k15x7rf5uh5-vishay-40993312) | 0.1 µF 50V Ceramic Capacitor |
@@ -39,7 +32,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | C20, C43, C45 | 3 | [K560J15C0GF5TL2](https://octopart.com/k560j15c0gf5tl2-vishay-39474510) | 56 pF 50V Ceramic Capacitor |
 | C21, C44 | 2 | [K221K15X7RF5TL2](https://octopart.com/k221k15x7rf5tl2-vishay-39474895) | 220 pF 50V Ceramic Capacitor 2.5mm |
 | C23 | 1 | [UVR2A010MDD1TD](https://octopart.com/uvr2a010mdd1td-nichicon-10319218) | 1 µF 100 V Electrolytic Capacitor |
-| C27, C28, C29, C30, C31, C33, C34, C35, C36, C37 | 10 | [K331K15X7RF53L2](https://octopart.com/k331k15x7rf53l2-vishay-42623274) | 330 pF 50V Ceramic Capacitor |
+| C27, C28, C29,<br />C30, C31, C33,<br />C34, C35, C36,<br />C37 | 10 | [K331K15X7RF53L2](https://octopart.com/k331k15x7rf53l2-vishay-42623274) | 330 pF 50V Ceramic Capacitor |
 | C41 | 1 | [FG18C0G1H180JNT00](https://octopart.com/fg18c0g1h180jnt00-tdk-75262881) | 18 pF 50V Ceramic Capacitor |
 | C42 | 1 | [K150J15C0GF5TL2](https://octopart.com/k150j15c0gf5tl2-vishay-39474466) | 15 pF 50V Ceramic Capacitor |
 
