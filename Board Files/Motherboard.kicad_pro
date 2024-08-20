@@ -1000,7 +1000,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "ONES-CPU-01 Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Motherboard.step",
