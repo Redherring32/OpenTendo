@@ -22,7 +22,7 @@ fp-info-cache
 **auto_save**
 
 # Ignore Gerbers Directories
-Gerbers
+*Gerbers*
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
