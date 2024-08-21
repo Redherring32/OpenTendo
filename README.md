@@ -57,6 +57,15 @@ The CIC lockout is also technically required, however you can either use an orig
 *[2]There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
 While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 
+## Changes Over The OEM
+* Uses `R15` to enable the Expansion Audio.
+
+* Added tapping points for stereo audio.
+
+* Added tapping point for RST.
+
+* Added a JST-PH 5 pin 2mm pitch footprint as an alternative for the `P6` connector. 
+
 
 ## License:
 
