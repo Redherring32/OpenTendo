@@ -31,7 +31,7 @@ NESRGB and Hi-Def NES can be installed as normal, but will not be incorporated i
                        some schematics represent more than one revision
 ```
 
-The gerber files required to order PCBs can be found under [releases](/releases).
+The gerber files required to order PCBs can be found under [releases](https://github.com/Redherring32/OpenTendo/releases).
 
 ## Recommended PCB specs
 * 2 layers
