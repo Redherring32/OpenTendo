@@ -1,4 +1,4 @@
-# Build of Materials
+# Bill of Materials
 This is a list of components you need to build the OpenTendo NES. You will need some components from the original NES and have to order more modern components.
 
 ## From the OEM NES
