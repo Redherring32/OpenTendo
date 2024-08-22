@@ -7,23 +7,32 @@
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
 
 
-## Note on RGB and HDMI:
+## Note on RGB and HDMI
 
 Neither RGB nor HDMI video output were or are a goal of the OpenTendo project, the goal was/is documentation and preservation, and the project was an exercise in reverse engineering. As such "improved" video outputs will not be added to OpenTendo.
 
 NESRGB and Hi-Def NES can be installed as normal, but will not be incorporated into the OpenTendo PCB
 
-## Repository Structure:
+## Repository Structure
+### Branches
+| Branch | Description |
+| ------ | ----------- |
+| master | Latest revision of OpenTendo. This is a almost 1:1 of the OEM NES. |
+| modded | Modded version of the latest revision (`master`). This houses any modification that is not in the OEM NES. |
+| vX.X | Previous revisions of OpenTendo. (*ex.* v1.3) |
+| vX.X_modded | Modded version of a previous revision. (*ex.* v1.3_modded) |
 
-* Board Files: Contains all files necessary to open the project in KiCad, as well as the schematic and schematic symbols
+### File Structure
+```
+.
+├── BOM                     # Contains the Bill of Materials.
+├── Board Files             # Contains all files necessary to open the project in KiCad.
+├── Component Footprints    # Contains the scans of the OEM NES board.
+└── Schematics              # Contains schematics for the OEM frontloading NES board revisions,
+                              some schematics represent more than one revision
+```
 
-* Component Footprints: Contains a library of all the custom footprints used on the board
-
-* Schematics: Contains schematics for the OEM frontloading NES board revisions, some schematics represent more than one revision
-
-The files required to order PCBs can be found under releases.
-
-## Recommended PCB specs:
+## Recommended PCB specs
 
 * 2 layers
 
@@ -44,17 +53,17 @@ Since this project is open-source you may do as you like with it, whether that i
 
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
-*Note:* At this point in time, any and all motherboards will require the use of an original CPU[1],  and PPU[2] to function.
+>[!NOTE]
+> At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]</sup>, and PPU<sup>[2]</sup> to function.
   
 These are the only two parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
 
 The CIC lockout is also technically required, however you can either use an original part, or a [NullCIC replacement board](https://github.com/Redherring32/NullCIC).
 
-
-*[1]There is an aftermarket CPU, the part number is UA6527 (NTSC) or UA6527P (PAL), however they are known to have different sounding audio due to swapped duty cycles, as such they aren't a 100% identical substitute, they otherwise work though.
-
-*[2]There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
+><sup>[1]</sup>There is an aftermarket CPU, the part number is UA6527 (NTSC) or UA6527P (PAL), however they are known to have different sounding audio due to swapped duty cycles, as such they aren't a 100% identical substitute, they otherwise work though.
+>
+><sup>[2]</sup>There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
 While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 
 ## Changes Over The OEM
@@ -67,12 +76,12 @@ While it works as a direct drop-in replacement, it isn't known whether it is com
 * Added a JST-PH 5 pin 2mm pitch footprint as an alternative for the `P6` connector. 
 
 
-## License:
+## License
 
 Licensed under
 the TAPR Open Hardware License (www.tapr.org/OHL)
 
-©Redherring32 2019-2020
+©Redherring32 2019-2024
 
 
 ## Credits
