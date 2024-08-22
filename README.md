@@ -21,6 +21,7 @@ NESRGB and Hi-Def NES can be installed as normal, but will not be incorporated i
 ### File Structure
 ```
 .
+├── BOM              # Contains the bill of materials.
 ├── Board Files      # Contains all files necessary to open the project in KiCad.
 |   └── Libraries    # Contains a library of all of the custom footprints used on the board.
 ├── Scans            # Contains the scans of the OEM NES board.
