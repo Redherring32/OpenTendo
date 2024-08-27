@@ -42,6 +42,11 @@ The gerber files required to order PCBs can be found under [releases](https://gi
 
 * And any color you want!
 
+> [!IMPORTANT]
+> OpenTendo have some solder mask overlapping the edge connector to secure the pads and the thin traces. Some fabricators might see this as an error and might try and fix it.
+>
+> We recommend leaving a note saying that the solder mask overlap on the edge connector is intentional and NOT an error when ordering the PCB.
+
 ![Board Front](https://i.imgur.com/yBy1h27.jpeg)
 
 The design is as true to the original board as possible, with subtle changes where needed to compensate for outdated/unsourcable parts,
