@@ -82,7 +82,7 @@ the TAPR Open Hardware License (www.tapr.org/OHL)
 
 *Krzysiobal* - Putting together the NES-CPU-11 schematic that my schematic is largely referrenced against.
 
-*[Muramasa](https://github.com/muramasatheninja)* - Ported to KiCad v8, PCB clean up, and fixing the EXP port footprint.
+*[Muramasa](https://www.muramasaentertainment.com/)* - Ported to KiCad v8, PCB clean up, and fixing the EXP port footprint.
 
 *[Kamoteshake](https://github.com/kamoteshake)* - Schematic clean up and fixing the EXP port footprint.
 

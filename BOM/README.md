@@ -4,8 +4,8 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 ## From the OEM NES
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
-| U5 | 1 | RP2C02 | PPU |
-| U6 | 1 | RP2A03 | CPU |
+| U5 | 1 | **NTSC:** RP2C02<br />**PAL:** RP2C07 | PPU |
+| U6 | 1 | **NTSC:** RP2A03<br/>**PAL:** RP2A07 | CPU |
 | U10 | 1 | 3193A | CIC |
 | Q1 | 1 | A937 | Epitaxial planar PNP transistor |
 | Q2, Q3| 2 | C2021 | 3 pin small signal bipolar transistor |
@@ -16,8 +16,8 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 ### Alternatives
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
-| U5 | 1 | **NTSC:** UA6528 <sup>[1]</sup><br />**PAL:** UA6528P | PPU knockoff |
-| U6 | 1 | **NTSC:** UA6527 <sup>[2]</sup><br />**PAL:** UA6527P | CPU knockoff |
+| U5 | 1 | **NTSC:** UA6528 <sup>[1]</sup><br />**PAL:** UA6528P | PPU clone |
+| U6 | 1 | **NTSC:** UA6527 <sup>[2]</sup><br />**PAL:** UA6527P | CPU clone |
 | U10| 1 | [NullCIC](https://github.com/Redherring32/NullCIC)<sup>[3]</sup> | Small board to replace CIC |
 | Q1 | 1 | [2SA937](https://octopart.com/2sa937-rohm-2179925)<sup>[4]</sup> | Epitaxial planar PNP transistor |
 | Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[5]</sup> | 3 pin small signal bipolar transistor |
@@ -100,12 +100,14 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 ### Others
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
-| X1 | 1 | [ECS-214-S-4X](https://octopart.com/ecs-214-s-4x-ecs+international-88334749) | 21.47727MHz Crystal |
+| X1 | 1 | **NTSC**: [ECS-214-S-4X](https://octopart.com/ecs-214-s-4x-ecs+international-88334749)<br />**PAL:** N/A<sup>[1]</sup>  | **NTSC:** 21.47727MHz Crystal<br />**PAL:** 26.601712MHz Crystal |
 | X2 | 1 | [CSTLS4M00G56-B0](https://octopart.com/cstls4m00g56-b0-murata-10326657) | 4 MHz Ceramic Resonator Built in Capacitor 47 pF |
 | D1, D2 | 2 | [1N5231BTR](https://octopart.com/1n5231btr-onsemi-12156453) | Zener Diode 5.1 V 500 mW Through Hole |
 | FC1 | 1 | [B78108S1393K](https://octopart.com/b78108s1393k-epcos-39569030) | 39 µH Unshielded Drum Core, Wirewound Inductor 470 mA 1.02Ohm Max Axial |
 | FC2 | 1 | [28L0138-10R-10](https://octopart.com/28l0138-10r-10-laird-19252911) | 75 Ohms @ 100 MHz 1 Ferrite Bead Axial 5A 10mOhm |
-| U1, U4 | 2 | [PA0009](https://octopart.com/pa0009-chip+quik-51024752)<sup>[1]</sup> | SOIC-24 to DIP-24 SMT Adapte |
+| U1, U4 | 2 | [PA0009](https://octopart.com/pa0009-chip+quik-51024752)<sup>[2]</sup> | SOIC-24 to DIP-24 SMT Adapte |
 
 > [!NOTE]
-> <sup>[1]</sup> You only need this adaptor if you're using the `6116SA15SOG` SRAM.
+> <sup>[1]</sup> We couldn't find a good part number for a crystal for PAL system. We recommend searching the internet to find a 26.601712MHz crystal for PAL.
+>
+> <sup>[2]</sup> You only need this adaptor if you're using the `6116SA15SOG` SRAM.
