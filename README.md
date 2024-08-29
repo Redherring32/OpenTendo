@@ -4,8 +4,8 @@
 
 <br />
 
-<p style="text-align:center;">
-  <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" alt="OSHW logo" style="max-width: 200px" />
+<p align="center">
+  <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" alt="OSHW logo" width="200px" />
 </p>
 
 # Open 'Tendo
