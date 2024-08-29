@@ -6,6 +6,7 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 | --------- | :-: | ---- | ----------- |
 | U5 | 1 | RP2C02 | PPU |
 | U6 | 1 | RP2A03 | CPU |
+| U10 | 1 | 3193A | CIC |
 | Q1 | 1 | A937 | Epitaxial planar PNP transistor |
 | Q2, Q3| 2 | C2021 | 3 pin small signal bipolar transistor |
 | DA1, DA3 | 2 | DAN601 | 6 pin small signal diode array |
@@ -15,15 +16,24 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 ### Alternatives
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
-| Q1 | 1 | [2SA937](https://octopart.com/2sa937-rohm-2179925)<sup>[1]</sup> | Epitaxial planar PNP transistor |
-| Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[2]</sup> | 3 pin small signal bipolar transistor |
-| DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[3]</sup> | 6 pin small signal diode array |
-| P2 | 2 | [PPPC241LFBN-RC](https://octopart.com/pppc241lfbn-rc-sullins-271073)<sup>[4]</sup> | 24 Pins Header Connector 0.100" (2.54mm) Through Hole |
+| U5 | 1 | **NTSC:** UA6528 <sup>[1]</sup><br />**PAL:** UA6528P | PPU knockoff |
+| U6 | 1 | **NTSC:** UA6527 <sup>[2]</sup><br />**PAL:** UA6527P | CPU knockoff |
+| U10| 1 | [NullCIC](https://github.com/Redherring32/NullCIC)<sup>[3]</sup> | Small board to replace CIC |
+| Q1 | 1 | [2SA937](https://octopart.com/2sa937-rohm-2179925)<sup>[4]</sup> | Epitaxial planar PNP transistor |
+| Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[5]</sup> | 3 pin small signal bipolar transistor |
+| DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[6]</sup> | 6 pin small signal diode array |
+| P2 | 2 | [PPPC241LFBN-RC](https://octopart.com/pppc241lfbn-rc-sullins-271073)<sup>[7]</sup> | 24 Pins Header Connector 0.100" (2.54mm) Through Hole |
 
 > [!NOTE]
-> <sup>[1][2][3]</sup> These components are discontinued and difficult to find. If you could find them, we recommend replacing the OEM. If not, the OEM components should still be fine.
+> <sup>[1]</sup> While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 >
-> <sup>[4]</sup> If you don't want to use the OEM expansion port, you can replace it with a header pin connector or not put anything at all. OpenTendo should still work without the expansion port. 
+> <sup>[2]</sup> They are known to have different sounding audio due to swapped duty cycles, as such they aren't a 100% identical substitute, they otherwise work though.
+>
+> <sup>[3]</sup> [NullCIC](https://github.com/Redherring32/NullCIC) is optional. Use this if you want to remove the CIC but still have the reset functionality.
+>
+> <sup>[4][5][6]</sup> These components are discontinued and difficult to find. If you could find them, we recommend replacing the OEM. If not, the OEM components should still be fine.
+>
+> <sup>[7]</sup> If you don't want to use the OEM expansion port, you can replace it with a header pin connector or not put anything at all. OpenTendo should still work without the expansion port. 
 
 ## What to buy
 We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and import the [BOM.csv](BOM.csv). This tool makes ordering from multiple Octopart's authorized distributors (Digikey, Mouser, etc.) easier. 
