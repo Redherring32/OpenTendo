@@ -16968,6 +16968,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 82.55) (xy 224.79 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5103d75d-2f4b-4085-9496-ffbacee24bd1")
+	)
+	(wire
+		(pts
 			(xy 290.83 105.41) (xy 279.4 105.41)
 		)
 		(stroke
@@ -19988,16 +19998,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 96.52) (xy 224.79 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c1f6b4-ca9e-43c2-9b08-fb88e2c30116")
-	)
-	(wire
-		(pts
 			(xy 279.4 166.37) (xy 290.83 166.37)
 		)
 		(stroke
@@ -21418,16 +21418,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 82.55) (xy 224.79 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f547010c-fc7a-4047-bd3b-cad6fca7761e")
-	)
-	(wire
-		(pts
 			(xy 228.6 166.37) (xy 238.76 166.37)
 		)
 		(stroke
@@ -21715,6 +21705,16 @@
 			(type default)
 		)
 		(uuid "ff331f00-743b-45b4-a343-43147817d55b")
+	)
+	(wire
+		(pts
+			(xy 224.79 111.76) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff89c360-a9b8-47f4-8063-ff8e1128c5b2")
 	)
 	(rectangle
 		(start 16.51 24.13)
@@ -26664,14 +26664,14 @@
 		)
 		(uuid "f1d77d79-99e9-4feb-b972-31d18326341d")
 	)
-	(label "VCC"
-		(at 224.79 82.55 270)
+	(label "EXP-AUDIO-IN"
+		(at 224.79 111.76 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f25faefb-c015-4c09-a4ee-c8246866bec4")
 	)
@@ -26752,14 +26752,14 @@
 		)
 		(uuid "f6b4d920-62df-449f-997b-b49c080a0db9")
 	)
-	(label "~{OE1}"
-		(at 224.79 104.14 90)
+	(label "EXP-6"
+		(at 224.79 82.55 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f72ad05a-49ea-40b9-ab0b-4e34d3539221")
 	)
@@ -37156,15 +37156,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 92.71 0)
+		(at 224.79 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c4a15bc7-ec02-43b1-843c-46914f09379c")
 		(property "Reference" "R15"
-			(at 222.25 97.79 90)
+			(at 221.742 93.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37173,7 +37173,7 @@
 			)
 		)
 		(property "Value" "5.6K"
-			(at 222.25 91.44 90)
+			(at 221.742 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37182,7 +37182,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 223.012 92.71 90)
+			(at 226.568 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
