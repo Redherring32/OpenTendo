@@ -1,8 +1,15 @@
-[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat)](https://discord.gg/XFrcBYFdBN)
-
 > [!CAUTION]
-> This is an old revision of OpenTendo. Check the [master](https://github.com/Redherring32/OpenTendo/tree/master) branch for the latest revision.
+> This is an archive of an old revision of OpenTendo. Check the [master](https://github.com/Redherring32/OpenTendo/tree/master) branch for the latest revision.
 
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat&theme=default-inverted&compact=true)](https://discord.gg/XFrcBYFdBN)
+![Static Badge](https://img.shields.io/badge/KiCad-v5-2547ca)
+![Static Badge](https://img.shields.io/badge/Revision-v1.3-red)
+
+<br />
+
+<p align="center">
+  <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" alt="OSHW logo" width="200px" />
+</p>
 
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
@@ -55,8 +62,7 @@ Since this project is open-source you may do as you like with it, whether that i
 
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
->[!NOTE]
-> At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]</sup>, and PPU<sup>[2]</sup> to function.
+At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]</sup>, and PPU<sup>[2]</sup> to function.
   
 These are the only two parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 

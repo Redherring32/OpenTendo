@@ -4,8 +4,9 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 ## From the OEM NES
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
-| U5 | 1 | RP2C02 | PPU |
-| U6 | 1 | RP2A03 | CPU |
+| U5 | 1 | **NTSC:** RP2C02<br />**PAL:** RP2C07 | PPU |
+| U6 | 1 | **NTSC:** RP2A03<br/>**PAL:** RP2A07 | CPU |
+| U10 | 1 | 3193A | CIC |
 | P2 | 1 | Connector | 48 pin expansion port |
 | P6 | 1 | Connector | 5 pin connector for the power/reset breakout board |
 
