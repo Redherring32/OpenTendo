@@ -1008,7 +1008,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "ONES-CPU-01 Gerbers/",
+      "plot": "ONES-CPU-01 Modded Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Motherboard.step",

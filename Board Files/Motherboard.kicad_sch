@@ -28034,7 +28034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NESRE:DIP-24_W15.24-7.62mm"
+		(property "Footprint" "NESRE:DIP-24_W15.24-7.62mm_SOIC-24-15.4-7.6mm"
 			(at 300.99 160.02 0)
 			(effects
 				(font
@@ -29462,7 +29462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NESRE:DIP-24_W15.24-7.62mm"
+		(property "Footprint" "NESRE:DIP-24_W15.24-7.62mm_SOIC-24-15.4-7.6mm"
 			(at 269.24 78.74 0)
 			(effects
 				(font
