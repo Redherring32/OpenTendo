@@ -1,6 +1,6 @@
 [![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat&theme=default-inverted&compact=true)](https://discord.gg/XFrcBYFdBN)
 ![Static Badge](https://img.shields.io/badge/KiCad-v8-2547ca)
-![Static Badge](https://img.shields.io/badge/Revision-v1.4-brightgreen)
+![Static Badge](https://img.shields.io/badge/Revision-v1.4__modded-brightgreen)
 
 <br />
 
@@ -67,6 +67,11 @@ I am not in any way affiliated with Nintendo, I'm just doing this in my free tim
 >[!NOTE]
 > Please check the [BOM](./BOM#from-the-oem-nes) for the list of components needed from the OEM NES
 
+## Modifications
+* Uses the `R15` to enable the Expansion Audio.
+* Added tapping points for left and right audio channels.
+* Added tapping point for `RST`.
+* Added a JST-PH 5 pin 2mm pitch footprint as an alternative for the `P6` connector.
 
 ## License
 
