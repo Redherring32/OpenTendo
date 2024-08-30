@@ -23,6 +23,7 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 | Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[5]</sup> | 3 pin small signal bipolar transistor |
 | DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[6]</sup> | 6 pin small signal diode array |
 | P2 | 2 | [PPPC241LFBN-RC](https://octopart.com/pppc241lfbn-rc-sullins-271073)<sup>[7]</sup> | 24 Pins Header Connector 0.100" (2.54mm) Through Hole |
+| P6 | 1 | [S5B-PH-K-S](https://octopart.com/s5b-ph-k-s-jst-248656)<sup>[8]</sup> | JST-PH 5 pin connector 2mm pitch |
 
 > [!NOTE]
 > <sup>[1]</sup> While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
@@ -33,7 +34,9 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 >
 > <sup>[4][5][6]</sup> These components are discontinued and difficult to find. If you could find them, we recommend replacing the OEM. If not, the OEM components should still be fine.
 >
-> <sup>[7]</sup> If you don't want to use the OEM expansion port, you can replace it with a header pin connector or not put anything at all. OpenTendo should still work without the expansion port. 
+> <sup>[7]</sup> If you don't want to use the OEM expansion port, you can replace it with a header pin connector or not put anything at all. OpenTendo should still work without the expansion port.
+>
+> <sup>[8]</sup> If you want to change the blue 5 pin connector for the power/reset breakout board, the modded OpenTendo have a footprint for a male 5 pin JST-PH 2mm. You will have to replace the connector of the power/reset breakout board with a female [JST-PH 5 pin 2mm pitch](https://octopart.com/phr-5-jst-279166). You will also have to replace the wire pins to fit the female connector.
 
 ## What to buy
 We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and import the [BOM.csv](BOM.csv). This tool makes ordering from multiple Octopart's authorized distributors (Digikey, Mouser, etc.) easier. 
@@ -52,6 +55,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | R10 | 1 | [CF18JT220K](https://octopart.com/cf18jt220k-stackpole+electronics-19205700) | 220K OHM 5% 1/8W |
 | R11 | 1 | [CF18JT1K20](https://octopart.com/cf18jt1k20-stackpole+electronics-19205676) | 1.2K OHM 5% 1/8W |
 | R13 | 1 | [CFR-25JB-52-150K](https://octopart.com/cfr-25jb-52-150k-yageo-22569037) | 150K OHM 5% 1/4W |
+| R15 | 1 | [CF18JT100K](https://octopart.com/cf18jt100k-stackpole+electronics-19205640) | 100K OHM 5% 1/8W |
 | R17 | 1 | [CF14JT2K20](https://octopart.com/cf14jt2k20-stackpole+electronics-19205454) | 2.2K OHM 5% 1/4W |
 | R18, R19 | 2 | [CF18JT1K00](https://octopart.com/cf18jt1k00-stackpole+electronics-19205674) | 1K OHM 5% 1/8W |
 
@@ -89,7 +93,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | U1, U4 | 2 | [6116SA15TPG](https://octopart.com/6116sa15tpg-renesas-106910580) | SRAM - Asynchronous Memory IC 16Kb (2K x 8) Parallel 15ns 24-PDIP |
 
 > [!NOTE]
-> <sup>[1]</sup> This component is an SOIC. You would need an SOIC to DIP adaptor (`PA0009`), listed in [Others](#others), to be able to use this component. If you're not comfortable working with SOIC, We recommend looking for the alternative `6116SA15TPG` or use the SRAM from the OEM NES.
+> <sup>[1]</sup> If you're not comfortable working with SOIC, We recommend looking for the alternative `6116SA15TPG` or use the SRAM from the OEM NES.
 
 ### Connectors
 | Reference | Qty | Part | Description |
@@ -105,9 +109,6 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | D1, D2 | 2 | [1N5231BTR](https://octopart.com/1n5231btr-onsemi-12156453) | Zener Diode 5.1 V 500 mW Through Hole |
 | FC1 | 1 | [B78108S1393K](https://octopart.com/b78108s1393k-epcos-39569030) | 39 µH Unshielded Drum Core, Wirewound Inductor 470 mA 1.02Ohm Max Axial |
 | FC2 | 1 | [28L0138-10R-10](https://octopart.com/28l0138-10r-10-laird-19252911) | 75 Ohms @ 100 MHz 1 Ferrite Bead Axial 5A 10mOhm |
-| U1, U4 | 2 | [PA0009](https://octopart.com/pa0009-chip+quik-51024752)<sup>[2]</sup> | SOIC-24 to DIP-24 SMT Adapte |
 
 > [!NOTE]
 > <sup>[1]</sup> We couldn't find a good part number for a crystal for PAL system. We recommend searching the internet to find a 26.601712MHz crystal for PAL.
->
-> <sup>[2]</sup> You only need this adaptor if you're using the `6116SA15SOG` SRAM.
