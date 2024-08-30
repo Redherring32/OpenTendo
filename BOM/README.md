@@ -23,7 +23,7 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 | Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[5]</sup> | 3 pin small signal bipolar transistor |
 | DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[6]</sup> | 6 pin small signal diode array |
 | P2 | 2 | [PPPC241LFBN-RC](https://octopart.com/pppc241lfbn-rc-sullins-271073)<sup>[7]</sup> | 24 Pins Header Connector 0.100" (2.54mm) Through Hole |
-| P6 | 1 | [S5B-PH-K-S](https://octopart.com/s5b-ph-k-s-jst-248656)<sup>[8]</sup> | JST-PH 5 pin connector 2mm pitch |
+| P8 | 1 | [S5B-PH-K-S](https://octopart.com/s5b-ph-k-s-jst-248656)<sup>[8]</sup> | JST-PH 5 pin connector 2mm pitch |
 
 > [!NOTE]
 > <sup>[1]</sup> While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
@@ -36,7 +36,7 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 >
 > <sup>[7]</sup> If you don't want to use the OEM expansion port, you can replace it with a header pin connector or not put anything at all. OpenTendo should still work without the expansion port.
 >
-> <sup>[8]</sup> If you want to change the blue 5 pin connector for the power/reset breakout board, the modded OpenTendo have a footprint for a male 5 pin JST-PH 2mm. You will have to replace the connector of the power/reset breakout board with a female [JST-PH 5 pin 2mm pitch](https://octopart.com/phr-5-jst-279166). You will also have to replace the wire pins to fit the female connector.
+> <sup>[8]</sup> If you want to change the blue 5 pin connector (`P6`) for the power/reset breakout board, the modded OpenTendo have a footprint for a male 5 pin JST-PH 2mm. You will have to replace the connector of the power/reset breakout board with a female [JST-PH 5 pin 2mm pitch](https://octopart.com/phr-5-jst-279166). You will also have to replace the wire pins to fit the female connector.
 
 ## What to buy
 We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and import the [BOM.csv](BOM.csv). This tool makes ordering from multiple Octopart's authorized distributors (Digikey, Mouser, etc.) easier. 
