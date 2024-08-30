@@ -1,7 +1,15 @@
-[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat)](https://discord.gg/XFrcBYFdBN)
-
 > [!CAUTION]
-> This is an old revision of Modded OpenTendo. Check the [modded](https://github.com/Redherring32/OpenTendo/tree/modded) branch for the latest revision.
+> This is an archive of an old revision of Modded OpenTendo. Check the [modded](https://github.com/Redherring32/OpenTendo/tree/modded) branch for the latest revision.
+
+[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat&theme=default-inverted&compact=true)](https://discord.gg/XFrcBYFdBN)
+![Static Badge](https://img.shields.io/badge/KiCad-v5-2547ca)
+![Static Badge](https://img.shields.io/badge/Revision-v1.3__modded-red)
+
+<br />
+
+<p align="center">
+  <img src="https://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo.svg" alt="OSHW logo" width="200px" />
+</p>
 
 # Open 'Tendo
 An Open-Source HardWare (OSHW) recreation of the original 1985 Front-Loading NES motherboard.
@@ -53,8 +61,7 @@ Since this project is open-source you may do as you like with it, whether that i
 
 I am not in any way affiliated with Nintendo, I'm just doing this in my free time as a stepping stone into further Reverse Engineering work.
 
->[!NOTE]
-> At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]</sup>, and PPU<sup>[2]</sup> to function.
+At this point in time, any and all motherboards will require the use of an original CPU<sup>[1]</sup>, and PPU<sup>[2]</sup> to function.
   
 These are the only two parts that are custom and have no available replacement, the rest can be replaced with modern, and or easily available parts.
 
@@ -66,7 +73,7 @@ The CIC lockout is also technically required, however you can either use an orig
 ><sup>[2]</sup>There is an aftermarket PPU that can be used; the part number is UA6528 (NTSC) or UA6528P (PAL), and it is available on Aliexpress.
 While it works as a direct drop-in replacement, it isn't known whether it is compatible with all NES games.
 
-## Changes Over The OEM
+## Modifications
 * Uses `R15` to enable the Expansion Audio.
 
 * Added tapping points for stereo audio.
