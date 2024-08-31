@@ -72,7 +72,7 @@ I am not in any way affiliated with Nintendo, I'm just doing this in my free tim
 * Added tapping points for left and right audio channels.
 * Added tapping point for `RST`.
 * Added a JST-PH 5 pin 2mm pitch footprint as an alternative for the `P6` connector.
-* Added an SOIC footrpint for the SRAMs.
+* Added an SOIC footprint for the SRAMs.
 
 ## License
 
