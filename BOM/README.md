@@ -49,16 +49,23 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | R2, R12 | 2 | [CF18JT510R](https://octopart.com/cf18jt510r-stackpole+electronics-19205768) | 510 OHM 5% 1/8W |
 | R3, R4 | 2 | [CF18JT100R](https://octopart.com/cf18jt100r-stackpole+electronics-19205641) | 100 OHM 5% 1/8W |
 | R5 | 1 | [CF18JT220R](https://octopart.com/cf18jt220r-stackpole+electronics-19205701) | 220 OHM 5% 1/8W |
-| R6 | 1 | [CF18JT47K0](https://octopart.com/cf18jt47k0-stackpole+electronics-19205759) | 47K OHM 5% 1/8W |
+| R6, R15 | 2 | [CF18JT47K0](https://octopart.com/cf18jt47k0-stackpole+electronics-19205759) | 47K OHM 5% 1/8W |
 | R7, R9 | 2 | [CF18JT20K0](https://octopart.com/cf18jt20k0-stackpole+electronics-19205697) |	20K OHM 5% 1/8W |
 | R8 | 1 | [CF18JT12K0](https://octopart.com/cf18jt12k0-stackpole+electronics-19205652) |	12K OHM 5% 1/8W |
 | R10 | 1 | [CF18JT220K](https://octopart.com/cf18jt220k-stackpole+electronics-19205700) | 220K OHM 5% 1/8W |
 | R11 | 1 | [CF18JT1K20](https://octopart.com/cf18jt1k20-stackpole+electronics-19205676) | 1.2K OHM 5% 1/8W |
 | R13 | 1 | [CFR-25JB-52-150K](https://octopart.com/cfr-25jb-52-150k-yageo-22569037) | 150K OHM 5% 1/4W |
-| R15 | 1 | [CF18JT100K](https://octopart.com/cf18jt100k-stackpole+electronics-19205640) | 100K OHM 5% 1/8W |
 | R17 | 1 | [CF14JT2K20](https://octopart.com/cf14jt2k20-stackpole+electronics-19205454) | 2.2K OHM 5% 1/4W |
 | R18, R19 | 2 | [CF18JT1K00](https://octopart.com/cf18jt1k00-stackpole+electronics-19205674) | 1K OHM 5% 1/8W |
 
+#### Alternatives
+| Reference | Qty | Part | Description |
+| --------- | :-: | ---- | ----------- |
+| R15<sup>[1]</sup> | 1 | [CF18JT100K](https://octopart.com/cf18jt100k-stackpole+electronics-19205640) | 100K OHM 5% 1/8W |
+
+
+> [!NOTE]
+> <sup>[1]</sup> R15 is used for the expansion audio. This resistor can be change to any value you prefer. Powerpak recommends 47k but it might not be good for other cart. The value affects the volume mixing of the expansion audio.
 
 ### Capacitors
 | Reference | Qty | Part | Description |

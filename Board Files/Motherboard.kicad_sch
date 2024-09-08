@@ -22022,6 +22022,25 @@
 		)
 		(uuid 61f6ec31-82a2-4a95-8107-8c87170b3cde)
 	)
+	(text_box "The resistor (R15), used for expansion audio, is user preference. Powerpak recommends 47K. The value affects the volume mixing of the expansion audio."
+		(exclude_from_sim no)
+		(at 218.44 113.03 0)
+		(size 25.4 11.43)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left top)
+		)
+		(uuid "428f1a30-bdda-49b9-b56f-fade3da9c99b")
+	)
 	(text "72-PIN CARTRIDGE CONNECTOR"
 		(exclude_from_sim no)
 		(at 375.92 17.78 0)
@@ -37583,7 +37602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6K"
+		(property "Value" "47K"
 			(at 221.742 86.868 90)
 			(effects
 				(font
