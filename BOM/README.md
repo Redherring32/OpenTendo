@@ -9,7 +9,8 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 | U10 | 1 | 3193A | CIC |
 | Q1 | 1 | A937 | Epitaxial planar PNP transistor |
 | Q2, Q3| 2 | C2021 | 3 pin small signal bipolar transistor |
-| DA1, DA3 | 2 | DAN601 | 6 pin small signal diode array |
+| DA1, DA3 | 2 | DAN601 | 7 pin small signal diode array |
+| DA2, DA4 | 2 | UPA64H | 7 pin high speed switching diode array |
 | P2 | 1 | Connector | 48 pin expansion port |
 | P6 | 1 | Connector | 5 pin connector for the power/reset breakout board |
 
@@ -21,7 +22,7 @@ This is a list of components you need to build the OpenTendo NES. You will need 
 | U10| 1 | [NullCIC](https://github.com/Redherring32/NullCIC)<sup>[3]</sup> | Small board to replace CIC |
 | Q1 | 1 | [2SA937](https://octopart.com/2sa937-rohm-2179925)<sup>[4]</sup> | Epitaxial planar PNP transistor |
 | Q2, Q3 | 2 | [2SC2021](https://octopart.com/2sc2021-rohm-2177186)<sup>[5]</sup> | 3 pin small signal bipolar transistor |
-| DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[6]</sup> | 6 pin small signal diode array |
+| DA1, DA3 | 2 | [DAN601](https://octopart.com/dan601-rohm-14372173)<sup>[6]</sup> | 7 pin small signal diode array |
 | P2 | 2 | [PPPC241LFBN-RC](https://octopart.com/pppc241lfbn-rc-sullins-271073)<sup>[7]</sup> | 24 Pins Header Connector 0.100" (2.54mm) Through Hole |
 | P8 | 1 | [S5B-PH-K-S](https://octopart.com/s5b-ph-k-s-jst-248656)<sup>[8]</sup> | JST-PH 5 pin connector 2mm pitch |
 
@@ -71,19 +72,23 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
 | BC1, BC2 | 2 | [K153K10X7RF5UH5](https://octopart.com/k153k10x7rf5uh5-vishay-44033224) | 0.015 µF 50V Ceramic Capacitor |
+| TC1 | 1 | [GKG30015](https://octopart.com/gkg30015-panasonic-120079986)<sup>[1]</sup> | 6.5-30 pF Capacitor Trimmer |
 | C1 | 1 | [ECE-A0JKA101I](https://octopart.com/ece-a0jka101i-panasonic-15327038) | 100 µF 6.3 V Electrolytic Capacitor |
-| C2, C3, C10, C11,<br />C12, C13, C14,<br />C15, C16, C17,<br />C18, C19, C22,<br />C24, C26, C32,<br />C38, C39, C40 | 19 | [K103K10X7RF5UH5](https://octopart.com/k103k10x7rf5uh5-vishay-44280222) | 10000 pF 50V Ceramic Capacitor |
+| C2, C3, C4, C10,<br />C11, C12, C13,<br />C14, C15, C16,<br />C17, C18, C19,<br />C22, C24, C26,<br />C32, C38, C39,<br />C40 | 20 | [K103K10X7RF5UH5](https://octopart.com/k103k10x7rf5uh5-vishay-44280222) | 10000 pF 50V Ceramic Capacitor |
 | C4 | 1 | [K221K15X7RF5TH5](https://octopart.com/k221k15x7rf5th5-vishay-39474957) | 220 pF 50V Ceramic Capacitor 5mm |
 | C5, C27, C28, C29,<br />C30, C31, C33,<br />C34, C35, C36,<br />C37 | 11 | [K331K15X7RF53L2](https://octopart.com/k331k15x7rf53l2-vishay-42623274) | 330 pF 50V Ceramic Capacitor |
 | C8, C46 | 2 | [K104K15X7RF5UH5](https://octopart.com/k104k15x7rf5uh5-vishay-40993312) | 0.1 µF 50V Ceramic Capacitor |
 | C9 | 1 | [ECA-1HHG2R2I](https://octopart.com/eca-1hhg2r2i-panasonic-12553061) | 2.2 µF 50 V Electrolytic Capacitor |
-| C20, C43, C45 | 3 | [K560J15C0GF5TL2](https://octopart.com/k560j15c0gf5tl2-vishay-39474510) | 56 pF 50V Ceramic Capacitor |
-| C21, C44 | 2 | [K221K15X7RF5TL2](https://octopart.com/k221k15x7rf5tl2-vishay-39474895) | 220 pF 50V Ceramic Capacitor 2.5mm |
+| C20, C21, C44 | 3 | [K221K15X7RF5TL2](https://octopart.com/k221k15x7rf5tl2-vishay-39474895) | 220 pF 50V Ceramic Capacitor 2.5mm |
 | C23 | 1 | [UVR2A010MDD1TD](https://octopart.com/uvr2a010mdd1td-nichicon-10319218) | 1 µF 100 V Electrolytic Capacitor |
 | C41 | 1 | [FG18C0G1H180JNT00](https://octopart.com/fg18c0g1h180jnt00-tdk-75262881) | 18 pF 50V Ceramic Capacitor |
 | C42 | 1 | [K150J15C0GF5TL2](https://octopart.com/k150j15c0gf5tl2-vishay-39474466) | 15 pF 50V Ceramic Capacitor |
+| C43, C45 | 2 | [K560J15C0GF5TL2](https://octopart.com/k560j15c0gf5tl2-vishay-39474510)<sup>[2]</sup> | 56 pF 50V Ceramic Capacitor |
 
-<!-- Components to test: C41, TC1 -->
+> [!NOTE]
+> <sup>[1]</sup> You might have to trim the capacitor to get a stable clock (21.47727MHz for NTSC and 26.601712MHz for PAL). If you don't have a way to probe the clock, We recommend just using the X1 and TC1 from the OEM NES.
+>
+> <sup>[2]</sup> The OEM is using 51pF for C43 and C45. It's been difficult to find a 51pF Ceramic Capacitor. Using a 56pF is fine and have been tested.
 
 ### ICs
 | Reference | Qty | Part | Description |
