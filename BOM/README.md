@@ -61,7 +61,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
 | BC1, BC2 | 2 | [K153K10X7RF5UH5](https://octopart.com/k153k10x7rf5uh5-vishay-44033224) | 0.015 µF 50V Ceramic Capacitor |
-| TC1, | 1 | [GKG30015](https://octopart.com/gkg30015-panasonic-120079986)<sup>[1]</sup> | 6.5-30 pF Capacitor Trimmer |
+| TC1 | 1 | [GKG30015](https://octopart.com/gkg30015-panasonic-120079986)<sup>[1]</sup> | 6.5-30 pF Capacitor Trimmer |
 | C1 | 1 | [ECE-A0JKA101I](https://octopart.com/ece-a0jka101i-panasonic-15327038) | 100 µF 6.3 V Electrolytic Capacitor |
 | C2, C3, C4, C10,<br />C11, C12, C13,<br />C14, C15, C16,<br />C17, C18, C19,<br />C22, C24, C26,<br />C32, C38, C39,<br />C40 | 20 | [K103K10X7RF5UH5](https://octopart.com/k103k10x7rf5uh5-vishay-44280222) | 10000 pF 50V Ceramic Capacitor |
 | C5, C27, C28, C29,<br />C30, C31, C33,<br />C34, C35, C36,<br />C37 | 11 | [K331K15X7RF53L2](https://octopart.com/k331k15x7rf53l2-vishay-42623274) | 330 pF 50V Ceramic Capacitor |
