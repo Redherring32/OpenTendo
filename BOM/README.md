@@ -43,6 +43,7 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 | Reference | Qty | Part | Description |
 | --------- | :-: | ---- | ----------- |
 | RA1 | 1 | [4613X-101-103LF](https://octopart.com/4613x-101-103lf-bourns-1656444) | 10k Ohm ±2% 200mW Bussed 12 Resistor Array 13-SIP |
+| RA2 | 1 | [4605X-101-682LF](https://octopart.com/4605x-101-682lf-bourns-1624703) | 6.8k Ohm Bussed 4 Resistor Array 5-SIP |
 | R1 | 1 | [RNF14FTD1M00](https://octopart.com/rnf14ftd1m00-stackpole+electronics-19224733) | 1M OHM 1% 1/4W |
 | R2, R12 | 2 | [CF18JT510R](https://octopart.com/cf18jt510r-stackpole+electronics-19205768) | 510 OHM 5% 1/8W |
 | R3, R4 | 2 | [CF18JT100R](https://octopart.com/cf18jt100r-stackpole+electronics-19205641) | 100 OHM 5% 1/8W |
@@ -115,4 +116,4 @@ We recommend using Octopart's [BOM tool](https://octopart.com/bom-tool/) and imp
 > [!NOTE]
 > <sup>[1]</sup> We couldn't find a good part number for a crystal for PAL system. We recommend searching the internet to find a 26.601712MHz crystal for PAL.
 >
-> <sup>[2]</sup> You only need this adaptor if you're using the `6116SA15SOG` SRAM.
+> <sup>[2]</sup> You only need this adaptor if you're using the `6116SA15SOG` SRAM. When using this adaptor, you will need additional header connector (`PPPC241LFBN-RC`). 
