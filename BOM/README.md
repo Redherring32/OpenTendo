@@ -1,5 +1,5 @@
 # Bill of Materials
-This is a list of components you need to build the OpenTendo NES. You will need some components from the original NES and have to order more modern components.
+This is a list of components you need to build the OpenTendo NES. You will need some components from the original NES and have to order more modern components. Open [interactive_bom.html](./interactive_bom.html) on a browser to open an interactive BOM which shows you where the component is located on the board.
 
 ## From the OEM NES
 | Reference | Qty | Part | Description |
