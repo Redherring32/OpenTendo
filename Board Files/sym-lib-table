@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Motherboard)(type Legacy)(uri ${KIPRJMOD}/Motherboard.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Motherboard")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Motherboard.kicad_sym")(options "")(descr ""))
 )
