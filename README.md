@@ -1,9 +1,9 @@
 > [!CAUTION]
 > This is an archive of an old revision of Modded OpenTendo. Check the [modded](https://github.com/Redherring32/OpenTendo/tree/modded) branch for the latest revision.
 
-[![](https://dcbadge.limes.pink/api/server/https://discord.gg/XFrcBYFdBN?style=flat&theme=default-inverted&compact=true)](https://discord.gg/XFrcBYFdBN)
-![Static Badge](https://img.shields.io/badge/KiCad-v5-2547ca)
-![Static Badge](https://img.shields.io/badge/Revision-v1.3__modded-red)
+[![Static Badge](https://img.shields.io/badge/Herring%20Hardware-5865F2?style=for-the-badge&logo=discord&logoColor=%23fff&label=Discord)](https://discord.gg/XFrcBYFdBN)
+![Static Badge](https://img.shields.io/badge/KiCad-v5-2547ca?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Revision-v1.3__modded-red?style=for-the-badge)
 
 <br />
 
@@ -99,5 +99,3 @@ the TAPR Open Hardware License (www.tapr.org/OHL)
 
 
 And to all of the awesome people in the NES scene, I wouldn't have been able to do this without the awesome work that some very clever people did before I got here. 
-
-
